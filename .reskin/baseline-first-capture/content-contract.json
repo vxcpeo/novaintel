@@ -1,0 +1,5500 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "projectName": "nasyai-website",
+    "title": "nasyai-website",
+    "lang": "en"
+  },
+  "routes": [
+    "/",
+    "/agents",
+    "/board",
+    "/brand",
+    "/contact",
+    "/crew",
+    "/desk",
+    "/launches",
+    "/log",
+    "/nasyai",
+    "/participate",
+    "/privacy",
+    "/protocol",
+    "/seats",
+    "/start",
+    "/stocks",
+    "/use"
+  ],
+  "visibleText": [
+    {
+      "value": ", and so is $NASYAI.",
+      "count": 1
+    },
+    {
+      "value": ", NasyaiStockVault",
+      "count": 1
+    },
+    {
+      "value": ", NasyaiTreasury",
+      "count": 1
+    },
+    {
+      "value": ", with a",
+      "count": 1
+    },
+    {
+      "value": ", with all 16 stock tokens set. Full addresses are on the protocol page.",
+      "count": 1
+    },
+    {
+      "value": ": amount × days held, for loans held 7 days or more.",
+      "count": 1
+    },
+    {
+      "value": ": get a code here, post it from your account, done.",
+      "count": 1
+    },
+    {
+      "value": ": it registers an ERC-8004 identity owned by your wallet.",
+      "count": 1
+    },
+    {
+      "value": ": one transaction, owned by your wallet.",
+      "count": 1
+    },
+    {
+      "value": ". Lane seats (Ethos) need an off-chain check first: tell us about your agent below.",
+      "count": 1
+    },
+    {
+      "value": ". Nasyai launches it on the Pons launchpad on Robinhood Chain from its own launcher wallet, which pays the launch fee and the gas, and replies with a card that shows the contract address. Attach an image to the post and it becomes the coin's logo; otherwise your profile picture is used. The coin's 2% creator fee on every trade goes to your linked wallet.",
+      "count": 1
+    },
+    {
+      "value": ". Only the owner can, and only while the agent owes nothing.",
+      "count": 1
+    },
+    {
+      "value": "… the agent does its work …",
+      "count": 1
+    },
+    {
+      "value": "· $NASYAI seat · holders",
+      "count": 1
+    },
+    {
+      "value": "· A first line",
+      "count": 1
+    },
+    {
+      "value": "· all of them",
+      "count": 1
+    },
+    {
+      "value": "· background",
+      "count": 1
+    },
+    {
+      "value": "· Borrow",
+      "count": 1
+    },
+    {
+      "value": "· cards",
+      "count": 1
+    },
+    {
+      "value": "· depth, highlights",
+      "count": 1
+    },
+    {
+      "value": "· focus, links",
+      "count": 1
+    },
+    {
+      "value": "· How a line opens",
+      "count": 1
+    },
+    {
+      "value": "· Identity",
+      "count": 1
+    },
+    {
+      "value": "· Latest loans",
+      "count": 1
+    },
+    {
+      "value": "· repaid, live",
+      "count": 1
+    },
+    {
+      "value": "· repay before the due date",
+      "count": 1
+    },
+    {
+      "value": "· Robinhood Chain",
+      "count": 1
+    },
+    {
+      "value": "· secondary text",
+      "count": 1
+    },
+    {
+      "value": "· Sponsor",
+      "count": 1
+    },
+    {
+      "value": "· Stock line",
+      "count": 1
+    },
+    {
+      "value": "· text",
+      "count": 1
+    },
+    {
+      "value": "· the mark, primary buttons, one word per headline at most",
+      "count": 1
+    },
+    {
+      "value": "· The record",
+      "count": 1
+    },
+    {
+      "value": "· The skill",
+      "count": 1
+    },
+    {
+      "value": "· Three ways to use Nasyai",
+      "count": 1
+    },
+    {
+      "value": "· Treasury seat",
+      "count": 1
+    },
+    {
+      "value": "· warmth, pending",
+      "count": 1
+    },
+    {
+      "value": "· what holding it does",
+      "count": 1
+    },
+    {
+      "value": "· your guide on this page",
+      "count": 1
+    },
+    {
+      "value": "· your status",
+      "count": 1
+    },
+    {
+      "value": "(Another backer, your address). New stake can leave after a day; stake that backs a line or an open loan's fee stays put.",
+      "count": 1
+    },
+    {
+      "value": "(the treasury, sponsors, seat vaults, stock vaults, or an owner staking $NASYAI) lock value behind one agent's line. They take 25% of that agent's fees and cover its defaults.",
+      "count": 1
+    },
+    {
+      "value": ") to pick who answers.",
+      "count": 1
+    },
+    {
+      "value": "@nasyai_xyz launch Forge Coin $FORGE",
+      "count": 1
+    },
+    {
+      "value": "@nasyai_xyz launch Name $TICKER",
+      "count": 2
+    },
+    {
+      "value": "// agents (the ERC-8004 owner)",
+      "count": 1
+    },
+    {
+      "value": "// anyone may repay",
+      "count": 1
+    },
+    {
+      "value": "// anyone, 7 days after due",
+      "count": 1
+    },
+    {
+      "value": "// check an agent from an agent (the CLI ships later)",
+      "count": 1
+    },
+    {
+      "value": "// lenders and sponsors",
+      "count": 1
+    },
+    {
+      "value": "// NasyaiPool: reads",
+      "count": 1
+    },
+    {
+      "value": "// sketch; the reference implementation ships with the SDK",
+      "count": 1
+    },
+    {
+      "value": "// sponsor contracts",
+      "count": 1
+    },
+    {
+      "value": "# env or .env only, never on a command line",
+      "count": 1
+    },
+    {
+      "value": "# example of the shape it prints, not a real agent:",
+      "count": 1
+    },
+    {
+      "value": "# registers an ERC-8004 identity, prints its id",
+      "count": 1
+    },
+    {
+      "value": "# the SDK and CLI ship later; the contracts are live",
+      "count": 1
+    },
+    {
+      "value": "#<id> · Nasyai Score 412 (Flare) · 38 repaid · 0 defaults · line $50 backed by sponsor",
+      "count": 1
+    },
+    {
+      "value": "#05050B",
+      "count": 1
+    },
+    {
+      "value": "#0B0B13",
+      "count": 1
+    },
+    {
+      "value": "#3DD8FF",
+      "count": 1
+    },
+    {
+      "value": "#4DFFB8",
+      "count": 1
+    },
+    {
+      "value": "#8B6CFF",
+      "count": 1
+    },
+    {
+      "value": "#A6A9C2",
+      "count": 1
+    },
+    {
+      "value": "#F5F6FF",
+      "count": 1
+    },
+    {
+      "value": "#FF5C8A",
+      "count": 1
+    },
+    {
+      "value": "#FFC24B",
+      "count": 1
+    },
+    {
+      "value": "% LTV",
+      "count": 1
+    },
+    {
+      "value": "→ (ok, fee)",
+      "count": 1
+    },
+    {
+      "value": "→ sponsor, line, principalOut, loansRepaid, qualifiedOnTime, weightedDollarDays, defaults…",
+      "count": 1
+    },
+    {
+      "value": "+1 step per 3 on-time loans, to $500",
+      "count": 1
+    },
+    {
+      "value": "≈ $0.012",
+      "count": 1
+    },
+    {
+      "value": "≈ $0.023",
+      "count": 1
+    },
+    {
+      "value": "$0",
+      "count": 1
+    },
+    {
+      "value": "$0.00",
+      "count": 1
+    },
+    {
+      "value": "$0.50",
+      "count": 1
+    },
+    {
+      "value": "$125",
+      "count": 1
+    },
+    {
+      "value": "$25",
+      "count": 1
+    },
+    {
+      "value": "$25 first line, Ethos ≥ 1400, no bond, 5 a day",
+      "count": 1
+    },
+    {
+      "value": "$25 line",
+      "count": 1
+    },
+    {
+      "value": "$25 line, Ethos ≥ 1400, no bond",
+      "count": 1
+    },
+    {
+      "value": "$25 of line; 2 steps to start, +1 per 3 loans repaid on time, at most 20 ($500)",
+      "count": 1
+    },
+    {
+      "value": "$25 steps: $50 to start",
+      "count": 1
+    },
+    {
+      "value": "$25 to $50",
+      "count": 1
+    },
+    {
+      "value": "$25 to $50, grows to $500",
+      "count": 1
+    },
+    {
+      "value": "$25 to $50, up to $500",
+      "count": 1
+    },
+    {
+      "value": "$410.42 · #482 · 0x8004…a432",
+      "count": 1
+    },
+    {
+      "value": "$5",
+      "count": 4
+    },
+    {
+      "value": "$5 first line",
+      "count": 1
+    },
+    {
+      "value": "$5 for 14 days",
+      "count": 1
+    },
+    {
+      "value": "$5 for 7 days",
+      "count": 1
+    },
+    {
+      "value": "$5 line",
+      "count": 1
+    },
+    {
+      "value": "$5 line, 5 USDG refundable bond",
+      "count": 1
+    },
+    {
+      "value": "$5 to start. Every dollar is covered by someone's own money: the treasury, a sponsor, the owner's stock tokens or $NASYAI.",
+      "count": 1
+    },
+    {
+      "value": "$5.00",
+      "count": 1
+    },
+    {
+      "value": "$50 (two $25 steps)",
+      "count": 1
+    },
+    {
+      "value": "$50 for 30 days",
+      "count": 1
+    },
+    {
+      "value": "$50 to $500",
+      "count": 1
+    },
+    {
+      "value": "$500",
+      "count": 2
+    },
+    {
+      "value": "$500 for 30 days",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI",
+      "count": 6
+    },
+    {
+      "value": "$NASYAI · for holders",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI · holders",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI and the treasury",
+      "count": 2
+    },
+    {
+      "value": "$NASYAI backs your own agent's credit line, gives you a holder's seat at Ask Nasyai (Grok, reading the live contracts) and lets you summon Nasyai on X. Hold 10,000 or more and all three are yours. A seat is collateral, never a yield product: if your agent defaults, three quarters of it burns.",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI creator fees",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI held",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI holders",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI in the signed-in (or linked) wallet",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI is the Nasyai token on Robinhood Chain. It has two jobs in the protocol: an agent's owner can lock it as collateral behind their own agent, and part of what the protocol earns buys it back. Creator fees from $NASYAI fund the treasury, and the treasury funds the $5 first lines. The treasury is topped up in USDG.",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI locked",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI or more and all three are yours.",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI per $25 step",
+      "count": 1
+    },
+    {
+      "value": "$NASYAI seat",
+      "count": 1
+    },
+    {
+      "value": "0",
+      "count": 3
+    },
+    {
+      "value": "0 loans",
+      "count": 1
+    },
+    {
+      "value": "0 to 1000. It weighs dollar-days repaid on time, counts debt someone else put at risk in full and the agent's own collateral for less, and marks a default for good. Late repayments count for less.",
+      "count": 1
+    },
+    {
+      "value": "0 to 99. Registered, maybe borrowed once.",
+      "count": 1
+    },
+    {
+      "value": "0.5% to leave within 7 days, kept by the other lenders",
+      "count": 1
+    },
+    {
+      "value": "0.5% within 7 days of a deposit",
+      "count": 1
+    },
+    {
+      "value": "0.5%, kept by other lenders",
+      "count": 1
+    },
+    {
+      "value": "01",
+      "count": 2
+    },
+    {
+      "value": "02",
+      "count": 2
+    },
+    {
+      "value": "03",
+      "count": 2
+    },
+    {
+      "value": "0x3b84…205f",
+      "count": 1
+    },
+    {
+      "value": "0x75c9…Adad",
+      "count": 1
+    },
+    {
+      "value": "0x9882…7Fb2",
+      "count": 1
+    },
+    {
+      "value": "1",
+      "count": 2
+    },
+    {
+      "value": "1 · Chain",
+      "count": 1
+    },
+    {
+      "value": "1 · Treasury invite",
+      "count": 1
+    },
+    {
+      "value": "1 a day per account, 20 a day in all",
+      "count": 1
+    },
+    {
+      "value": "1 launch a day",
+      "count": 1
+    },
+    {
+      "value": "1 to 30 days",
+      "count": 1
+    },
+    {
+      "value": "1%",
+      "count": 1
+    },
+    {
+      "value": "1% per 30 days",
+      "count": 1
+    },
+    {
+      "value": "1% per 30 days, by the day",
+      "count": 1
+    },
+    {
+      "value": "1% per 30 days, by the day. Hold at least 7 days and repay on time for it to count fully toward the Nasyai Score.",
+      "count": 1
+    },
+    {
+      "value": "1% per 30 days, charged by the day, one day minimum. The fee is fixed when you borrow.",
+      "count": 1
+    },
+    {
+      "value": "10,000 $NASYAI or more",
+      "count": 1
+    },
+    {
+      "value": "100 to 299. A few loans held and repaid.",
+      "count": 1
+    },
+    {
+      "value": "118° · #FFC24B 0% → #4DFFB8 38% → #3DD8FF 64% → #8B6CFF 100%",
+      "count": 1
+    },
+    {
+      "value": "16 stock tokens · Robinhood Chain",
+      "count": 1
+    },
+    {
+      "value": "16, live prices",
+      "count": 1
+    },
+    {
+      "value": "2",
+      "count": 1
+    },
+    {
+      "value": "2 · Ethos lane",
+      "count": 1
+    },
+    {
+      "value": "2 · Site",
+      "count": 1
+    },
+    {
+      "value": "2 to 10 letters or digits, once each",
+      "count": 1
+    },
+    {
+      "value": "2 to 10 letters or digits, once per ticker",
+      "count": 1
+    },
+    {
+      "value": "2% of trades, to your linked wallet",
+      "count": 2
+    },
+    {
+      "value": "20 a day, credit reports and coin launches",
+      "count": 1
+    },
+    {
+      "value": "20 launches a day",
+      "count": 1
+    },
+    {
+      "value": "20%",
+      "count": 1
+    },
+    {
+      "value": "2026-11-08",
+      "count": 3
+    },
+    {
+      "value": "24h volume",
+      "count": 1
+    },
+    {
+      "value": "25%",
+      "count": 2
+    },
+    {
+      "value": "25% of fees",
+      "count": 1
+    },
+    {
+      "value": "2a",
+      "count": 1
+    },
+    {
+      "value": "2b",
+      "count": 1
+    },
+    {
+      "value": "2c",
+      "count": 1
+    },
+    {
+      "value": "3",
+      "count": 2
+    },
+    {
+      "value": "3 · Owner's $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "3 · X",
+      "count": 1
+    },
+    {
+      "value": "3 answers a day",
+      "count": 1
+    },
+    {
+      "value": "30% to 50% of the value",
+      "count": 1
+    },
+    {
+      "value": "30% to 50% of the value of your stock tokens",
+      "count": 1
+    },
+    {
+      "value": "30% to 50% of value by token, capped at $500, default penalty",
+      "count": 1
+    },
+    {
+      "value": "30% to 50% of value, by token",
+      "count": 1
+    },
+    {
+      "value": "300 to 599. Weeks of clean repayments.",
+      "count": 1
+    },
+    {
+      "value": "4 · A backer",
+      "count": 1
+    },
+    {
+      "value": "4 · Loans",
+      "count": 1
+    },
+    {
+      "value": "404",
+      "count": 1
+    },
+    {
+      "value": "5 · Stock line",
+      "count": 1
+    },
+    {
+      "value": "5 a day",
+      "count": 3
+    },
+    {
+      "value": "5 USDG, refundable",
+      "count": 1
+    },
+    {
+      "value": "50%",
+      "count": 2
+    },
+    {
+      "value": "50% of every fee to lenders",
+      "count": 1
+    },
+    {
+      "value": "50% of fees",
+      "count": 1
+    },
+    {
+      "value": "50% of value",
+      "count": 1
+    },
+    {
+      "value": "60 a day + credit reports",
+      "count": 2
+    },
+    {
+      "value": "60 questions a day",
+      "count": 1
+    },
+    {
+      "value": "600 to 849. Months, bigger lines, on time.",
+      "count": 1
+    },
+    {
+      "value": "7",
+      "count": 1
+    },
+    {
+      "value": "7 days after due",
+      "count": 1
+    },
+    {
+      "value": "75% burned",
+      "count": 1
+    },
+    {
+      "value": "75% of it burns",
+      "count": 1
+    },
+    {
+      "value": "75% of the seat burns",
+      "count": 1
+    },
+    {
+      "value": "75% of the seat's $NASYAI burns, 25% returns to the owner",
+      "count": 1
+    },
+    {
+      "value": "75% of the stake burns",
+      "count": 1
+    },
+    {
+      "value": "850 to 1000. Rare. Long history, no defaults.",
+      "count": 1
+    },
+    {
+      "value": "A $5 first line",
+      "count": 1
+    },
+    {
+      "value": "A $50 line to start, up to $500 as it repays",
+      "count": 1
+    },
+    {
+      "value": "a $50 line, up to $500",
+      "count": 1
+    },
+    {
+      "value": "A $NASYAI holder posts",
+      "count": 1
+    },
+    {
+      "value": "A backer stands behind an agent",
+      "count": 1
+    },
+    {
+      "value": "a card each, never a trade from your wallet",
+      "count": 1
+    },
+    {
+      "value": "A coin launched this way is yours to promote and is not endorsed by Nasyai. New coins are risky: most lose their value. Tickers and names that belong to others are refused.",
+      "count": 1
+    },
+    {
+      "value": "A credit line and a credit score, for AI agents.",
+      "count": 1
+    },
+    {
+      "value": "A default costs what you owe plus 20%,",
+      "count": 1
+    },
+    {
+      "value": "A default costs you; it never costs the lenders.",
+      "count": 1
+    },
+    {
+      "value": "A default is always repaid from backing in the same call; pool assets never fall because of one.",
+      "count": 1
+    },
+    {
+      "value": "A default stays on an agent's record for good and caps its Nasyai Score at 600. I flag late and defaulted loans; ask me about any agent before you trust it.",
+      "count": 1
+    },
+    {
+      "value": "A falling price does not shrink it mid-loan, but the next line opens smaller.",
+      "count": 1
+    },
+    {
+      "value": "A late repayment counts at half. A default subtracts heavily and caps the score at 600 for good.",
+      "count": 1
+    },
+    {
+      "value": "A line can never exceed what backs it. The pool lends lenders' USDG, but a lender's deposit is never the thing that pays for a default.",
+      "count": 1
+    },
+    {
+      "value": "A line needs money behind it before the agent can borrow. There are five ways to put it there. Pick the one that fits you; the record the agent builds is the same either way.",
+      "count": 1
+    },
+    {
+      "value": "A linked holder posts",
+      "count": 1
+    },
+    {
+      "value": "A loan held under 7 days barely moves the score. That keeps a bot from farming a record out of thousands of one-hour loans.",
+      "count": 1
+    },
+    {
+      "value": "A loan held under 7 days settles fine but barely adds to the score.",
+      "count": 1
+    },
+    {
+      "value": "A near-black void with a blue cast, starlight text, and four light colours that only ever appear as light: in gradients, glows, numbers and status.",
+      "count": 1
+    },
+    {
+      "value": "A number from 0 to 1000, recomputed from events, never stored by hand.",
+      "count": 1
+    },
+    {
+      "value": "A repaid loan proves it.",
+      "count": 1
+    },
+    {
+      "value": "A root sponsor stakes USDG and vouches for agents directly, without $NASYAI. Each line you open is covered by your stake in full; you earn a quarter of the fees those agents pay and you lose the principal and fee of any that default.",
+      "count": 1
+    },
+    {
+      "value": "a sponsor",
+      "count": 1
+    },
+    {
+      "value": "A sponsor may name a view-only guard the pool asks before each loan on its lines; it can refuse a loan, never block a repayment.",
+      "count": 1
+    },
+    {
+      "value": "A sponsor stakes USDG behind your agent and earns a quarter of every fee it pays. If it defaults, the sponsor's stake repays the pool.",
+      "count": 1
+    },
+    {
+      "value": "A star cut out of the light.",
+      "count": 1
+    },
+    {
+      "value": "Account opens at launch",
+      "count": 1
+    },
+    {
+      "value": "Add steps",
+      "count": 1
+    },
+    {
+      "value": "Add your agent",
+      "count": 1
+    },
+    {
+      "value": "Address",
+      "count": 1
+    },
+    {
+      "value": "Addresses",
+      "count": 2
+    },
+    {
+      "value": "after the last loan is repaid",
+      "count": 1
+    },
+    {
+      "value": "Agent",
+      "count": 5
+    },
+    {
+      "value": "Agent board",
+      "count": 1
+    },
+    {
+      "value": "Agent card",
+      "count": 1
+    },
+    {
+      "value": "agent desk",
+      "count": 2
+    },
+    {
+      "value": "Agent desk",
+      "count": 3
+    },
+    {
+      "value": "Agent id",
+      "count": 1
+    },
+    {
+      "value": "Agent skill",
+      "count": 2
+    },
+    {
+      "value": "Agents",
+      "count": 6
+    },
+    {
+      "value": "AI",
+      "count": 1
+    },
+    {
+      "value": "All",
+      "count": 1
+    },
+    {
+      "value": "All five ways in",
+      "count": 1
+    },
+    {
+      "value": "All parameters",
+      "count": 1
+    },
+    {
+      "value": "Amount",
+      "count": 2
+    },
+    {
+      "value": "Amount (tokens)",
+      "count": 1
+    },
+    {
+      "value": "Amount (USDG)",
+      "count": 1
+    },
+    {
+      "value": "Amount, due date and fee are fixed when the loan opens. The USDG goes to the agent's own wallet, nowhere else.",
+      "count": 1
+    },
+    {
+      "value": "An agent has one sponsor at a time. Only its owner can choose, and only while it owes nothing.",
+      "count": 1
+    },
+    {
+      "value": "An agent needs a little money to work.",
+      "count": 1
+    },
+    {
+      "value": "an ERC-8004 agent · ten weeks in",
+      "count": 1
+    },
+    {
+      "value": "An example of the public record every agent gets. Real ones are read from the pool contract, on the",
+      "count": 1
+    },
+    {
+      "value": "An owner who proves an Ethos score of 1400 or more can open a new agent's first line at $25 with no bond. Five a day, first come.",
+      "count": 1
+    },
+    {
+      "value": "and Nasyai launches it on the Pons launchpad, paying the fee and gas. Its 2% creator fee goes to the holder. Every launch, with its live market.",
+      "count": 1
+    },
+    {
+      "value": "Another backer",
+      "count": 1
+    },
+    {
+      "value": "any size",
+      "count": 1
+    },
+    {
+      "value": "any time, from idle USDG",
+      "count": 1
+    },
+    {
+      "value": "Anyone can say their agent is smart.",
+      "count": 1
+    },
+    {
+      "value": "anywhere on X. Attach an image for the logo, or your profile picture is used.",
+      "count": 1
+    },
+    {
+      "value": "Archivo, widest cut, extra bold.",
+      "count": 1
+    },
+    {
+      "value": "are ERC-8004 identities. An agent borrows inside its line, from its own wallet, and builds a record by repaying.",
+      "count": 1
+    },
+    {
+      "value": "Ask",
+      "count": 5
+    },
+    {
+      "value": "Ask Nasyai",
+      "count": 6
+    },
+    {
+      "value": "Ask Nasyai · the crew",
+      "count": 2
+    },
+    {
+      "value": "Ask Nasyai and Nasyai on X read your balance again within minutes. Below the line, you are a guest again. A seat is different: its $NASYAI is locked in the vault until you close it.",
+      "count": 1
+    },
+    {
+      "value": "Ask Nasyai as a holder",
+      "count": 1
+    },
+    {
+      "value": "Ask Nasyai as a holder: 60 a day and credit reports",
+      "count": 1
+    },
+    {
+      "value": "Ask Nasyai runs on Grok and reads the live contracts: any agent's record, a fee quote, stock lines, a wallet's position. Holders get a full allowance and the credit report, a one-page due diligence on any agent before you pay it, trust it or back it.",
+      "count": 1
+    },
+    {
+      "value": "Ask Pilot the way",
+      "count": 1
+    },
+    {
+      "value": "Ask Scout about an agent",
+      "count": 1
+    },
+    {
+      "value": "Ask the crew how it works",
+      "count": 1
+    },
+    {
+      "value": "Ask the crew. They read the chain.",
+      "count": 1
+    },
+    {
+      "value": "Ask the treasury",
+      "count": 1
+    },
+    {
+      "value": "at block 108,855,338 and verified on Sourcify (exact match): NasyaiPool",
+      "count": 1
+    },
+    {
+      "value": "At launch",
+      "count": 2
+    },
+    {
+      "value": "Aurora mint",
+      "count": 1
+    },
+    {
+      "value": "Back home",
+      "count": 1
+    },
+    {
+      "value": "Back your agent",
+      "count": 1
+    },
+    {
+      "value": "Back your own agent",
+      "count": 2
+    },
+    {
+      "value": "Back your own agent with $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "Backed by",
+      "count": 4
+    },
+    {
+      "value": "backer ·",
+      "count": 1
+    },
+    {
+      "value": "Backer address",
+      "count": 1
+    },
+    {
+      "value": "Backer earns",
+      "count": 1
+    },
+    {
+      "value": "Backers",
+      "count": 1
+    },
+    {
+      "value": "Backing your own agent with $NASYAI is collateral, not a yield product: the best case is that you get it back. Only stake what you can lose if your agent doesn't repay.",
+      "count": 1
+    },
+    {
+      "value": "Before an agent can borrow, someone has to put money behind it. After that, its record is simply what it paid back.",
+      "count": 1
+    },
+    {
+      "value": "Before you buy a fresh coin, tag Nasyai with its ticker: it reads the market and what people on X are saying.",
+      "count": 1
+    },
+    {
+      "value": "Before you deposit, ask me what a default would take from your tokens at today's prices.",
+      "count": 1
+    },
+    {
+      "value": "Before you put money in",
+      "count": 1
+    },
+    {
+      "value": "before you write anywhere else. A bounty is coming.",
+      "count": 1
+    },
+    {
+      "value": "between loans",
+      "count": 1
+    },
+    {
+      "value": "board",
+      "count": 1
+    },
+    {
+      "value": "Board",
+      "count": 3
+    },
+    {
+      "value": "Body",
+      "count": 1
+    },
+    {
+      "value": "Bond",
+      "count": 2
+    },
+    {
+      "value": "Bond held",
+      "count": 1
+    },
+    {
+      "value": "Borrow",
+      "count": 2
+    },
+    {
+      "value": "Borrow against stock tokens",
+      "count": 1
+    },
+    {
+      "value": "Borrow USDG against your stock tokens.",
+      "count": 1
+    },
+    {
+      "value": "Borrow, hold, repay",
+      "count": 1
+    },
+    {
+      "value": "Borrow.",
+      "count": 2
+    },
+    {
+      "value": "Borrow. Back. Lend.",
+      "count": 1
+    },
+    {
+      "value": "Borrowed",
+      "count": 1
+    },
+    {
+      "value": "Borrowed(agentId, loanId, amount, due, fee)",
+      "count": 1
+    },
+    {
+      "value": "Borrows",
+      "count": 2
+    },
+    {
+      "value": "borrows inside its line, pays a fee",
+      "count": 1
+    },
+    {
+      "value": "Brand",
+      "count": 2
+    },
+    {
+      "value": "Bring your reputation",
+      "count": 1
+    },
+    {
+      "value": "Browse the board",
+      "count": 1
+    },
+    {
+      "value": "Builders",
+      "count": 1
+    },
+    {
+      "value": "Built for agents on",
+      "count": 1
+    },
+    {
+      "value": "Buy $NASYAI",
+      "count": 2
+    },
+    {
+      "value": "Buy minutes from a worker agent and settle when the work is accepted.",
+      "count": 1
+    },
+    {
+      "value": "Chain reads",
+      "count": 1
+    },
+    {
+      "value": "Chart and buy",
+      "count": 1
+    },
+    {
+      "value": "Check",
+      "count": 1
+    },
+    {
+      "value": "Checking agents before paying them, or giving yours a line? Start with the skill file.",
+      "count": 1
+    },
+    {
+      "value": "Choose this sponsor",
+      "count": 1
+    },
+    {
+      "value": "Claim fees",
+      "count": 1
+    },
+    {
+      "value": "Close",
+      "count": 1
+    },
+    {
+      "value": "Close and take $NASYAI back",
+      "count": 1
+    },
+    {
+      "value": "Close and take tokens back",
+      "count": 1
+    },
+    {
+      "value": "Close the seat",
+      "count": 1
+    },
+    {
+      "value": "coin",
+      "count": 1
+    },
+    {
+      "value": "Coin",
+      "count": 1
+    },
+    {
+      "value": "Coin launches",
+      "count": 2
+    },
+    {
+      "value": "Coins launched",
+      "count": 1
+    },
+    {
+      "value": "Coins launched by replying to Nasyai.",
+      "count": 1
+    },
+    {
+      "value": "Command",
+      "count": 1
+    },
+    {
+      "value": "connect a wallet",
+      "count": 2
+    },
+    {
+      "value": "Connect a wallet (any EIP-6963 browser wallet; Robinhood Chain is added for you) and do everything from the site: create an ERC-8004 agent, choose its sponsor, open a treasury seat or a stock line, borrow, repay, get the bond back, close a line. On Participate, lend and withdraw USDG, or stake as a sponsor and set lines for agents that chose you. Every refusal comes back in plain words before your wallet opens.",
+      "count": 1
+    },
+    {
+      "value": "Connect and sign in",
+      "count": 1
+    },
+    {
+      "value": "Connect the wallet that holds your $NASYAI and sign a short message. Signing is free: it sends no transaction and moves nothing. The sign-in lasts 7 days in this browser; your balance is read again every few minutes, so it follows what you hold.",
+      "count": 1
+    },
+    {
+      "value": "Connect the wallet that owns the agent, choose the sponsor, and open the seat or the stock line yourself on the",
+      "count": 1
+    },
+    {
+      "value": "Connect wallet",
+      "count": 1
+    },
+    {
+      "value": "Consent.",
+      "count": 1
+    },
+    {
+      "value": "Contact",
+      "count": 4
+    },
+    {
+      "value": "Contract",
+      "count": 2
+    },
+    {
+      "value": "Contracts",
+      "count": 1
+    },
+    {
+      "value": "Copy",
+      "count": 5
+    },
+    {
+      "value": "Costs you",
+      "count": 2
+    },
+    {
+      "value": "Counts as a holder",
+      "count": 1
+    },
+    {
+      "value": "Counts toward score",
+      "count": 1
+    },
+    {
+      "value": "Create an agent",
+      "count": 4
+    },
+    {
+      "value": "Create an agent with an ERC-8004 identity, take a $5 line from the treasury, and let it borrow when it needs working capital.",
+      "count": 1
+    },
+    {
+      "value": "Create an agent.",
+      "count": 1
+    },
+    {
+      "value": "Create one now",
+      "count": 1
+    },
+    {
+      "value": "Create one on the agent desk",
+      "count": 1
+    },
+    {
+      "value": "Creator fee",
+      "count": 3
+    },
+    {
+      "value": "Credit for AI agents",
+      "count": 1
+    },
+    {
+      "value": "Credit lines for agents, fully backed.",
+      "count": 1
+    },
+    {
+      "value": "Credit report · agent #",
+      "count": 2
+    },
+    {
+      "value": "Credit report by Nasyai",
+      "count": 1
+    },
+    {
+      "value": "Credit reports",
+      "count": 1
+    },
+    {
+      "value": "Crew",
+      "count": 2
+    },
+    {
+      "value": "Days",
+      "count": 1
+    },
+    {
+      "value": "days held or more",
+      "count": 1
+    },
+    {
+      "value": "Debt someone else put at risk counts in full. Debt backed only by the agent owner's own collateral counts at a quarter.",
+      "count": 1
+    },
+    {
+      "value": "Default",
+      "count": 1
+    },
+    {
+      "value": "defaulted",
+      "count": 1
+    },
+    {
+      "value": "Defaults",
+      "count": 3
+    },
+    {
+      "value": "Defaults are paid from the backer's stake",
+      "count": 1
+    },
+    {
+      "value": "Deployed",
+      "count": 1
+    },
+    {
+      "value": "Deposit",
+      "count": 2
+    },
+    {
+      "value": "Deposit Robinhood stock tokens and the stock vault backs a line against them, priced by Chainlink. Keep the shares, borrow USDG.",
+      "count": 1
+    },
+    {
+      "value": "Deposit Robinhood stock tokens, keep the exposure, and draw USDG for your agent. The stock vault backs the line, priced by Chainlink, so the pool never carries the risk.",
+      "count": 1
+    },
+    {
+      "value": "Deposit Robinhood stock tokens; the stock vault backs a line at 30% to 50% of their value, up to $500, priced live by Chainlink.",
+      "count": 1
+    },
+    {
+      "value": "deposit USDG and hold pool shares. They take 50% of every fee.",
+      "count": 1
+    },
+    {
+      "value": "Deposit USDG into the pool agents borrow from. Half of every fee goes to lenders, and because every line is fully backed, a default is paid from the backer's stake, not your deposit.",
+      "count": 1
+    },
+    {
+      "value": "Deposit USDG into the pool. You get pool shares; their value grows as fees come in. Because every line is fully backed by someone else's stake, a default is repaid from that stake, not from deposits.",
+      "count": 1
+    },
+    {
+      "value": "Deposit what you could live without.",
+      "count": 1
+    },
+    {
+      "value": "deposit(assets, minShares) · withdraw(shares, to, minAssets) stake(assets) · unstake(shares, to) · setLine(agentId, line) · claimSponsorFees(to)",
+      "count": 1
+    },
+    {
+      "value": "Desk",
+      "count": 2
+    },
+    {
+      "value": "Detail",
+      "count": 2
+    },
+    {
+      "value": "Dev log",
+      "count": 3
+    },
+    {
+      "value": "Disconnect here",
+      "count": 1
+    },
+    {
+      "value": "Does Nasyai trade or move money?",
+      "count": 1
+    },
+    {
+      "value": "dollar-days repaid on time",
+      "count": 1
+    },
+    {
+      "value": "Draw USDG inside the line",
+      "count": 1
+    },
+    {
+      "value": "draws USDG",
+      "count": 1
+    },
+    {
+      "value": "Due",
+      "count": 1
+    },
+    {
+      "value": "Due diligence room",
+      "count": 1
+    },
+    {
+      "value": "Dust",
+      "count": 2
+    },
+    {
+      "value": "Each line opened, loan drawn, repayment and default, in the order the chain wrote them. Every agent is a star here: it gets brighter with each loan it pays back, and a default leaves a mark that never fades.",
+      "count": 1
+    },
+    {
+      "value": "Each one belongs to the holder who launched it.",
+      "count": 1
+    },
+    {
+      "value": "Each repayment goes on chain and lifts its Nasyai Score, and the line grows toward $500. Anyone can check an agent before they pay it or trust it.",
+      "count": 1
+    },
+    {
+      "value": "Each repayment lands on chain and adds to the agent's public record. Past the first $5, a bigger line needs a sponsor's USDG or the owner's collateral: stock tokens or $NASYAI.",
+      "count": 1
+    },
+    {
+      "value": "Early exit (lenders)",
+      "count": 1
+    },
+    {
+      "value": "earns 25% of fees",
+      "count": 1
+    },
+    {
+      "value": "Eight characters answer on every page, one shape and two eyes each. Each page has a guide from the crew, and the whole crew lives on",
+      "count": 1
+    },
+    {
+      "value": "Eight specialists on Grok, one set of live contracts. Pick who to ask: Scout researches agents, Ledger quotes fees, Warden looks for risk, Pilot walks you through the desk. They read Robinhood Chain as it stands and never sign anything.",
+      "count": 1
+    },
+    {
+      "value": "Eight specialists on Grok, one set of live contracts. Scout researches agents, Ledger quotes fees, Warden looks for risk, Pilot walks you through the desk. None of them can sign anything.",
+      "count": 1
+    },
+    {
+      "value": "Email",
+      "count": 2
+    },
+    {
+      "value": "Enter an amount to get a quote.",
+      "count": 1
+    },
+    {
+      "value": "Enter an amount to see the line it opens.",
+      "count": 1
+    },
+    {
+      "value": "Entry",
+      "count": 1
+    },
+    {
+      "value": "ERC-8004",
+      "count": 1
+    },
+    {
+      "value": "ERC-8004 · USDG · x402 · MCP",
+      "count": 1
+    },
+    {
+      "value": "ERC-8004 agent id",
+      "count": 5
+    },
+    {
+      "value": "ERC-8004 identity",
+      "count": 1
+    },
+    {
+      "value": "ETH for gas",
+      "count": 1
+    },
+    {
+      "value": "Ethos lane",
+      "count": 2
+    },
+    {
+      "value": "Ethos score of 1400 or more: a $25 first line, no bond",
+      "count": 1
+    },
+    {
+      "value": "Event",
+      "count": 1
+    },
+    {
+      "value": "Every agent leaves a record.",
+      "count": 1
+    },
+    {
+      "value": "Every agent with a Nasyai line, sorted by Nasyai Score. Nothing on this page is self-reported: each number comes from loans an agent took, held and repaid on chain.",
+      "count": 1
+    },
+    {
+      "value": "Every coin, live",
+      "count": 1
+    },
+    {
+      "value": "Every holder use, and your status",
+      "count": 1
+    },
+    {
+      "value": "Every loan, in public.",
+      "count": 1
+    },
+    {
+      "value": "Every member reads the same live contracts and follows the same rules. What changes is the focus, so the answers go deeper where you need them.",
+      "count": 1
+    },
+    {
+      "value": "Every parameter and address is on the protocol page, and on chain.",
+      "count": 1
+    },
+    {
+      "value": "Every release, with the details.",
+      "count": 1
+    },
+    {
+      "value": "Every transaction needs a little ETH on Robinhood Chain for gas. The contracts are new and have no outside audit.",
+      "count": 1
+    },
+    {
+      "value": "Everyone",
+      "count": 1
+    },
+    {
+      "value": "everyone 3 answers a day; linked holder accounts 20 a day, credit reports and coin launches; one reply per post with a card",
+      "count": 1
+    },
+    {
+      "value": "Everyone else",
+      "count": 2
+    },
+    {
+      "value": "Everything an agent's owner does on Nasyai, from one wallet: create the agent, choose who backs it, open its line, borrow and repay. Each step is a transaction you approve in your wallet. Nothing here holds a key.",
+      "count": 1
+    },
+    {
+      "value": "Example",
+      "count": 3
+    },
+    {
+      "value": "Example record",
+      "count": 1
+    },
+    {
+      "value": "Exit fee window",
+      "count": 1
+    },
+    {
+      "value": "Experimental contracts with no outside audit. USDG you lend or stake can be lost.",
+      "count": 1
+    },
+    {
+      "value": "explorer",
+      "count": 1
+    },
+    {
+      "value": "export NASYAI_KEY=0x…",
+      "count": 1
+    },
+    {
+      "value": "Fee",
+      "count": 3
+    },
+    {
+      "value": "Fee agents pay",
+      "count": 1
+    },
+    {
+      "value": "Fee split",
+      "count": 1
+    },
+    {
+      "value": "Feed updated",
+      "count": 1
+    },
+    {
+      "value": "Fees to claim",
+      "count": 1
+    },
+    {
+      "value": "Find someone who vouches",
+      "count": 1
+    },
+    {
+      "value": "Flare",
+      "count": 1
+    },
+    {
+      "value": "Flare rose",
+      "count": 1
+    },
+    {
+      "value": "Follow Nasyai",
+      "count": 1
+    },
+    {
+      "value": "For a day, a week or a month, up to its line, at 1% per 30 days. A quarter of each fee goes to whoever backs it.",
+      "count": 1
+    },
+    {
+      "value": "for agent #12's credit report card, or start with a name (",
+      "count": 1
+    },
+    {
+      "value": "For agent runtimes",
+      "count": 1
+    },
+    {
+      "value": "For anything, including security reports.",
+      "count": 1
+    },
+    {
+      "value": "For APIs, compute, data or another agent's help, before its own income lands.",
+      "count": 1
+    },
+    {
+      "value": "For every agent: open principal ≤ line ≤ locked backing.",
+      "count": 1
+    },
+    {
+      "value": "Found something? Write to",
+      "count": 1
+    },
+    {
+      "value": "Four contracts: NasyaiPool (lenders, sponsors, lines, loans, defaults), NasyaiTreasury (bonded $5 first lines and the signed lane), NasyaiSeatVault (an owner's $NASYAI behind their agent) and NasyaiStockVault (stock tokens priced by Chainlink). 55 tests pass, including invariant runs that throw thousands of random deposits, loans, repayments and defaults at the pool and check that the share price never falls, that every lender can leave at once, and that every line stays covered.",
+      "count": 1
+    },
+    {
+      "value": "Four steps from a wallet to a public credit record. Nothing here takes custody of your agent: it keeps its own key, and you decide when it borrows.",
+      "count": 1
+    },
+    {
+      "value": "Free to back or take out",
+      "count": 1
+    },
+    {
+      "value": "From a terminal or from inside the agent. The same calls work over MCP once the hosted server opens.",
+      "count": 1
+    },
+    {
+      "value": "Front the cost of a trade, a listing or a print run and repay from the sale.",
+      "count": 1
+    },
+    {
+      "value": "Fully backed, plus a 5 USDG bond you get back",
+      "count": 1
+    },
+    {
+      "value": "Fund the pool",
+      "count": 1
+    },
+    {
+      "value": "Funded by",
+      "count": 1
+    },
+    {
+      "value": "Gas and fees",
+      "count": 1
+    },
+    {
+      "value": "Get $",
+      "count": 1
+    },
+    {
+      "value": "Get $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "Get a code",
+      "count": 1
+    },
+    {
+      "value": "Get a first line",
+      "count": 1
+    },
+    {
+      "value": "Get an ERC-8004 identity",
+      "count": 1
+    },
+    {
+      "value": "Get the bond back",
+      "count": 1
+    },
+    {
+      "value": "Get your agent its first line.",
+      "count": 1
+    },
+    {
+      "value": "getAgent(agentId)",
+      "count": 1
+    },
+    {
+      "value": "Give it a first line",
+      "count": 1
+    },
+    {
+      "value": "Give my agent a line",
+      "count": 1
+    },
+    {
+      "value": "Give your agent a credit history.",
+      "count": 1
+    },
+    {
+      "value": "Grace before default",
+      "count": 1
+    },
+    {
+      "value": "Grok by xAI. The crew reads, never signs. Answers can be wrong and are not financial advice; the contracts are the source of truth.",
+      "count": 1
+    },
+    {
+      "value": "Grok by xAI. The crew reads, never signs. Answers can be wrong and are not financial advice; the contracts are the source of truth. Chats stay in this tab.",
+      "count": 1
+    },
+    {
+      "value": "Grows",
+      "count": 1
+    },
+    {
+      "value": "Grows in steps to",
+      "count": 1
+    },
+    {
+      "value": "Hand your agent one line. It works in Claude Code, Codex, OpenClaw, Hermes or any runtime that reads a skill file. The skill covers how to check another agent before paying it, how to get a first line, and that it borrows or repays only when you say so.",
+      "count": 1
+    },
+    {
+      "value": "Hand your agent the skill",
+      "count": 1
+    },
+    {
+      "value": "Headlines",
+      "count": 1
+    },
+    {
+      "value": "Hiring other agents",
+      "count": 1
+    },
+    {
+      "value": "Hold $NASYAI. Put it to work.",
+      "count": 1
+    },
+    {
+      "value": "Hold 10,000 $NASYAI and link your X account once on",
+      "count": 1
+    },
+    {
+      "value": "Hold a loan 7 days or more and repay on time: that is what builds the score. Ask me what a loan costs before you take it.",
+      "count": 1
+    },
+    {
+      "value": "Hold and link",
+      "count": 1
+    },
+    {
+      "value": "Hold it. Put it to work.",
+      "count": 1
+    },
+    {
+      "value": "Holder",
+      "count": 1
+    },
+    {
+      "value": "Holder line",
+      "count": 1
+    },
+    {
+      "value": "Holder links",
+      "count": 1
+    },
+    {
+      "value": "Holder sign-in",
+      "count": 1
+    },
+    {
+      "value": "holder tier on",
+      "count": 1
+    },
+    {
+      "value": "holders",
+      "count": 1
+    },
+    {
+      "value": "Holders",
+      "count": 2
+    },
+    {
+      "value": "holders 60 questions a day and credit reports; guests 5 a day",
+      "count": 1
+    },
+    {
+      "value": "holders only",
+      "count": 1
+    },
+    {
+      "value": "Home",
+      "count": 1
+    },
+    {
+      "value": "How a line is used",
+      "count": 1
+    },
+    {
+      "value": "How launching works",
+      "count": 1
+    },
+    {
+      "value": "How much the agent may owe at once. It starts at $5 from the treasury and grows only when a backer, stock tokens or the owner's $NASYAI cover more.",
+      "count": 1
+    },
+    {
+      "value": "How much you can ask",
+      "count": 1
+    },
+    {
+      "value": "How the pool works",
+      "count": 2
+    },
+    {
+      "value": "How the pool works, in full.",
+      "count": 1
+    },
+    {
+      "value": "How the score works",
+      "count": 1
+    },
+    {
+      "value": "How to read it",
+      "count": 1
+    },
+    {
+      "value": "How, in three steps",
+      "count": 2
+    },
+    {
+      "value": "https://nasyai.xyz/skill.md and follow it.",
+      "count": 2
+    },
+    {
+      "value": "i.",
+      "count": 1
+    },
+    {
+      "value": "If it doesn't, the backer pays",
+      "count": 1
+    },
+    {
+      "value": "If the agent defaults",
+      "count": 1
+    },
+    {
+      "value": "If the agent sells work over x402, the USDG it was paid in the last 30 days shows next to its record. Income is shown, never scored.",
+      "count": 1
+    },
+    {
+      "value": "If you hold $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "If you lend",
+      "count": 1
+    },
+    {
+      "value": "If you link an X account to your wallet for Nasyai on X, we keep that pair (X user id, username, wallet) so Nasyai knows who to answer. Unlink on the $NASYAI page and it is deleted. Nasyai on X keeps a short log of the posts it answered.",
+      "count": 1
+    },
+    {
+      "value": "If you run an agent",
+      "count": 1
+    },
+    {
+      "value": "If you write to us, we keep the conversation to answer it, and delete it on request.",
+      "count": 1
+    },
+    {
+      "value": "If your agent defaults",
+      "count": 1
+    },
+    {
+      "value": "ii.",
+      "count": 1
+    },
+    {
+      "value": "iii.",
+      "count": 1
+    },
+    {
+      "value": "In all",
+      "count": 1
+    },
+    {
+      "value": "In plain words",
+      "count": 1
+    },
+    {
+      "value": "Ink",
+      "count": 1
+    },
+    {
+      "value": "Inter for everything you read. Calm, neutral, and out of the way of the numbers.",
+      "count": 1
+    },
+    {
+      "value": "Inter Tight Black",
+      "count": 1
+    },
+    {
+      "value": "Interface",
+      "count": 2
+    },
+    {
+      "value": "Invariants",
+      "count": 2
+    },
+    {
+      "value": "Inventory",
+      "count": 1
+    },
+    {
+      "value": "Ion cyan",
+      "count": 1
+    },
+    {
+      "value": "Is any of this financial advice?",
+      "count": 1
+    },
+    {
+      "value": "is kept for defaults and errors only.",
+      "count": 1
+    },
+    {
+      "value": "Is the seat a way to earn?",
+      "count": 1
+    },
+    {
+      "value": "It goes live",
+      "count": 1
+    },
+    {
+      "value": "It is new, with no outside audit.",
+      "count": 1
+    },
+    {
+      "value": "It pays back",
+      "count": 1
+    },
+    {
+      "value": "It pays back, and anyone can see it.",
+      "count": 1
+    },
+    {
+      "value": "It repays",
+      "count": 1
+    },
+    {
+      "value": "Its record is public and on chain",
+      "count": 1
+    },
+    {
+      "value": "iv.",
+      "count": 1
+    },
+    {
+      "value": "JetBrains Mono for amounts, ids and addresses.",
+      "count": 1
+    },
+    {
+      "value": "Join.",
+      "count": 1
+    },
+    {
+      "value": "Keep an agent's wallet topped up so a job never stalls on an empty balance.",
+      "count": 1
+    },
+    {
+      "value": "Largest line",
+      "count": 1
+    },
+    {
+      "value": "Late is better than never: it counts at half.",
+      "count": 1
+    },
+    {
+      "value": "Late.",
+      "count": 1
+    },
+    {
+      "value": "Launch a coin by replying to Nasyai on X",
+      "count": 1
+    },
+    {
+      "value": "Launch a coin from X",
+      "count": 1
+    },
+    {
+      "value": "Launch from X",
+      "count": 1
+    },
+    {
+      "value": "launch Name $TICKER",
+      "count": 1
+    },
+    {
+      "value": "Launch yours, in three steps",
+      "count": 1
+    },
+    {
+      "value": "Launched by",
+      "count": 1
+    },
+    {
+      "value": "launched from X · Robinhood Chain",
+      "count": 1
+    },
+    {
+      "value": "Launcher",
+      "count": 1
+    },
+    {
+      "value": "Launches",
+      "count": 1
+    },
+    {
+      "value": "launches, resets 00:00 UTC",
+      "count": 1
+    },
+    {
+      "value": "Learn",
+      "count": 1
+    },
+    {
+      "value": "Leave within 7 days",
+      "count": 1
+    },
+    {
+      "value": "ledger, ...",
+      "count": 1
+    },
+    {
+      "value": "Lend USDG",
+      "count": 2
+    },
+    {
+      "value": "Lend USDG. Or back your own agent.",
+      "count": 1
+    },
+    {
+      "value": "Lenders",
+      "count": 1
+    },
+    {
+      "value": "lenders ·",
+      "count": 1
+    },
+    {
+      "value": "Lenders fund the pool and take half of every fee. Backers stand behind a specific agent and take a quarter of what that agent pays. Both see every loan on chain.",
+      "count": 1
+    },
+    {
+      "value": "lenders take 50% of every fee",
+      "count": 1
+    },
+    {
+      "value": "lent out",
+      "count": 1
+    },
+    {
+      "value": "Limit",
+      "count": 2
+    },
+    {
+      "value": "Line",
+      "count": 10
+    },
+    {
+      "value": "Line in USDG",
+      "count": 1
+    },
+    {
+      "value": "Line now",
+      "count": 1
+    },
+    {
+      "value": "Line opened.",
+      "count": 1
+    },
+    {
+      "value": "Line per token",
+      "count": 1
+    },
+    {
+      "value": "Line to start",
+      "count": 1
+    },
+    {
+      "value": "LineOpened",
+      "count": 1
+    },
+    {
+      "value": "LineOpened(agentId, backer, amount)",
+      "count": 1
+    },
+    {
+      "value": "Lines",
+      "count": 1
+    },
+    {
+      "value": "Lines and fees are capped while the pool is young.",
+      "count": 1
+    },
+    {
+      "value": "Lines you back",
+      "count": 1
+    },
+    {
+      "value": "Link",
+      "count": 1
+    },
+    {
+      "value": "Link X",
+      "count": 1
+    },
+    {
+      "value": "Link your X account",
+      "count": 2
+    },
+    {
+      "value": "Linked on X",
+      "count": 1
+    },
+    {
+      "value": "Liquidity",
+      "count": 1
+    },
+    {
+      "value": "live",
+      "count": 2
+    },
+    {
+      "value": "Load",
+      "count": 1
+    },
+    {
+      "value": "Load an agent to open its seat.",
+      "count": 1
+    },
+    {
+      "value": "Loan",
+      "count": 1
+    },
+    {
+      "value": "Loan length",
+      "count": 1
+    },
+    {
+      "value": "Loan lifecycle",
+      "count": 2
+    },
+    {
+      "value": "Loans",
+      "count": 1
+    },
+    {
+      "value": "loans · latest",
+      "count": 1
+    },
+    {
+      "value": "loans drawn",
+      "count": 1
+    },
+    {
+      "value": "Loans repaid",
+      "count": 1
+    },
+    {
+      "value": "Loans written",
+      "count": 1
+    },
+    {
+      "value": "loans, all on time",
+      "count": 1
+    },
+    {
+      "value": "loansOf(agentId) · getLoan(loanId) · stats() canBorrow(agentId, amount, term)",
+      "count": 1
+    },
+    {
+      "value": "Lock $NASYAI behind your agent's line. The seat vault backs the line in USDG from its own stake. If the agent defaults, three quarters of your stake burns and the rest comes back.",
+      "count": 1
+    },
+    {
+      "value": "Lock and open the seat",
+      "count": 1
+    },
+    {
+      "value": "Lock your $NASYAI in the seat vault and it backs your agent's credit line in USDG. The agent borrows, repays on time, builds a Nasyai Score, and the line grows. Close the seat and the $NASYAI comes back.",
+      "count": 1
+    },
+    {
+      "value": "Lock your own $NASYAI behind the agent and the seat vault backs its line in USDG, in $25 steps: two to start ($50), one more for every three loans repaid on time, up to $500. It is collateral, not a yield product: if the agent defaults, 75% of the locked $NASYAI burns and the rest comes back to you.",
+      "count": 1
+    },
+    {
+      "value": "Lock your own $NASYAI behind your agent's line and the seat vault backs it in USDG. If the agent defaults, three quarters of it burns and the rest comes back.",
+      "count": 1
+    },
+    {
+      "value": "Locked behind your agent",
+      "count": 1
+    },
+    {
+      "value": "Lost by lenders",
+      "count": 1
+    },
+    {
+      "value": "LTV",
+      "count": 1
+    },
+    {
+      "value": "mark-512.png",
+      "count": 1
+    },
+    {
+      "value": "mark.svg",
+      "count": 1
+    },
+    {
+      "value": "markDefault(loanId)",
+      "count": 1
+    },
+    {
+      "value": "Market cap",
+      "count": 1
+    },
+    {
+      "value": "Markets close, feeds pause.",
+      "count": 1
+    },
+    {
+      "value": "Max",
+      "count": 1
+    },
+    {
+      "value": "Meet the crew.",
+      "count": 1
+    },
+    {
+      "value": "Meet them",
+      "count": 1
+    },
+    {
+      "value": "Minimum loan",
+      "count": 1
+    },
+    {
+      "value": "Model",
+      "count": 2
+    },
+    {
+      "value": "Money first. Then a record.",
+      "count": 1
+    },
+    {
+      "value": "Most lose their value. Check the market before you buy.",
+      "count": 1
+    },
+    {
+      "value": "Name a hot wallet your agent runs on. It can borrow for the agent; the USDG goes to it. It stops working the moment the agent changes owner. Leave empty to clear it.",
+      "count": 1
+    },
+    {
+      "value": "Names and tickers that belong to others are refused",
+      "count": 1
+    },
+    {
+      "value": "Nas",
+      "count": 3
+    },
+    {
+      "value": "NASY",
+      "count": 1
+    },
+    {
+      "value": "Nasyai",
+      "count": 1
+    },
+    {
+      "value": "Nasyai AI Lab LLC",
+      "count": 1
+    },
+    {
+      "value": "Nasyai answers your posts",
+      "count": 1
+    },
+    {
+      "value": "Nasyai gold",
+      "count": 1
+    },
+    {
+      "value": "Nasyai launches it on Pons, pays the fee and gas, and replies with a card that shows the contract. You earn its 2% creator fee.",
+      "count": 1
+    },
+    {
+      "value": "Nasyai lends it USDG, backed in full.",
+      "count": 1
+    },
+    {
+      "value": "Nasyai lends USDG to AI agents. Someone backs every line with their own money, every repayment is written on chain, and any app can read an agent's record before it trusts one.",
+      "count": 1
+    },
+    {
+      "value": "Nasyai on X",
+      "count": 2
+    },
+    {
+      "value": "Nasyai on X answers your account",
+      "count": 1
+    },
+    {
+      "value": "Nasyai opens its doors",
+      "count": 1
+    },
+    {
+      "value": "Nasyai record",
+      "count": 1
+    },
+    {
+      "value": "Nasyai Score",
+      "count": 7
+    },
+    {
+      "value": "Nasyai Super Intelligence. Fully backed USDG credit lines for ERC-8004 AI agents on Robinhood Chain, and a public record of which agents pay back.",
+      "count": 1
+    },
+    {
+      "value": "nasyai.xyz",
+      "count": 1
+    },
+    {
+      "value": "Nasyai's crew",
+      "count": 1
+    },
+    {
+      "value": "Nasyai's crew answers on every page.",
+      "count": 1
+    },
+    {
+      "value": "NasyaiTreasury.open(agentId) · openLane(agentId, deadline, sig) · releaseBond(agentId) · close(agentId) NasyaiSeatVault.open(agentId, steps, maxCost) · grow(…) · close(agentId) · settle(agentId) NasyaiStockVault.open(agentId, token, amount) · close(agentId) · settle(agentId)",
+      "count": 1
+    },
+    {
+      "value": "Never. Nasyai reads the chain and answers. Every transaction on Nasyai is signed by your own wallet on the desk or the Participate page.",
+      "count": 1
+    },
+    {
+      "value": "New",
+      "count": 1
+    },
+    {
+      "value": "New coins are risky.",
+      "count": 1
+    },
+    {
+      "value": "New stake cannot leave for a day, so nobody can stake just around a default or a repayment.",
+      "count": 1
+    },
+    {
+      "value": "News, releases and the pool's milestones.",
+      "count": 1
+    },
+    {
+      "value": "No agent has borrowed yet. The first ones appear here after their first repaid loan, read from the pool contract. Below: what the board will look like, with example agents.",
+      "count": 1
+    },
+    {
+      "value": "No agent yet?",
+      "count": 1
+    },
+    {
+      "value": "No cookies. Session storage holds the wallet you last connected, your open chats with the crew, and which pages the crew has already said hello on, for this tab only. If you sign in as a $NASYAI holder, local storage keeps that sign-in (your address and a key that expires after 7 days) until you sign out.",
+      "count": 1
+    },
+    {
+      "value": "No id yet?",
+      "count": 1
+    },
+    {
+      "value": "No line opens on a stale price.",
+      "count": 1
+    },
+    {
+      "value": "No loans yet",
+      "count": 2
+    },
+    {
+      "value": "No loans yet.",
+      "count": 1
+    },
+    {
+      "value": "No lock",
+      "count": 1
+    },
+    {
+      "value": "No Nasyai record yet. Every loan this agent takes, holds and repays on the pool is written here, with its Nasyai Score.",
+      "count": 1
+    },
+    {
+      "value": "No one by that name.",
+      "count": 1
+    },
+    {
+      "value": "No outside audit yet: the contracts are new, and money lent or staked can be lost. Ask me what can go wrong before you put money in.",
+      "count": 1
+    },
+    {
+      "value": "No outside audit yet.",
+      "count": 1
+    },
+    {
+      "value": "No. 1",
+      "count": 1
+    },
+    {
+      "value": "No. 2",
+      "count": 1
+    },
+    {
+      "value": "No. 3",
+      "count": 1
+    },
+    {
+      "value": "No. It is collateral for your own agent. The best case is that you get your $NASYAI back; if the agent defaults, three quarters of it burns. Only lock what you can lose.",
+      "count": 1
+    },
+    {
+      "value": "No. Nasyai explains how Nasyai works and what the numbers are. The contracts are new and have no outside audit.",
+      "count": 1
+    },
+    {
+      "value": "none",
+      "count": 1
+    },
+    {
+      "value": "None",
+      "count": 1
+    },
+    {
+      "value": "Not financial advice.",
+      "count": 1
+    },
+    {
+      "value": "Not launched yet. Everything below is built and switches on the moment the coin's address is set; until then Ask Nasyai is open to everyone.",
+      "count": 1
+    },
+    {
+      "value": "not linked",
+      "count": 1
+    },
+    {
+      "value": "Nothing at these coordinates.",
+      "count": 1
+    },
+    {
+      "value": "nothing: Nasyai pays fee and gas",
+      "count": 1
+    },
+    {
+      "value": "nothing: Nasyai pays the fee and gas",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai borrow 5 --days 14",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai check <agentId>",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai join",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai join --invite <code>",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai repay --all",
+      "count": 1
+    },
+    {
+      "value": "npx nasyai status",
+      "count": 1
+    },
+    {
+      "value": "Numbers",
+      "count": 1
+    },
+    {
+      "value": "of every trade, to the holder",
+      "count": 1
+    },
+    {
+      "value": "og.png",
+      "count": 1
+    },
+    {
+      "value": "on any page: the panel shows you as a holder.",
+      "count": 1
+    },
+    {
+      "value": "On default",
+      "count": 2
+    },
+    {
+      "value": "on the $NASYAI page",
+      "count": 1
+    },
+    {
+      "value": "Once $NASYAI launches",
+      "count": 1
+    },
+    {
+      "value": "once, with a code from this page",
+      "count": 1
+    },
+    {
+      "value": "One allowance for the whole crew.",
+      "count": 1
+    },
+    {
+      "value": "one free signature, 7 days, kept in this browser only",
+      "count": 1
+    },
+    {
+      "value": "One line for Claude Code, Codex, OpenClaw, Hermes or any runtime that reads skill files.",
+      "count": 1
+    },
+    {
+      "value": "One pool of USDG, lines that are always fully backed, and a score built from repayments alone. This page is the plain-language spec; the contracts are the source of truth.",
+      "count": 1
+    },
+    {
+      "value": "one signature, no gas",
+      "count": 1
+    },
+    {
+      "value": "Only the agent's owner, or a wallet the owner named as its operator, can borrow, and the USDG goes to that caller.",
+      "count": 1
+    },
+    {
+      "value": "open",
+      "count": 1
+    },
+    {
+      "value": "Open",
+      "count": 2
+    },
+    {
+      "value": "Open a seat",
+      "count": 1
+    },
+    {
+      "value": "Open a stock line",
+      "count": 1
+    },
+    {
+      "value": "Open the agent desk",
+      "count": 4
+    },
+    {
+      "value": "Open the full crew",
+      "count": 1
+    },
+    {
+      "value": "Open the seat",
+      "count": 1
+    },
+    {
+      "value": "Open the stock line",
+      "count": 1
+    },
+    {
+      "value": "Opens at launch",
+      "count": 1
+    },
+    {
+      "value": "Operator address",
+      "count": 1
+    },
+    {
+      "value": "Operator: let another wallet borrow for this agent",
+      "count": 1
+    },
+    {
+      "value": "Owes now",
+      "count": 1
+    },
+    {
+      "value": "Owner",
+      "count": 1
+    },
+    {
+      "value": "Paid APIs over x402",
+      "count": 1
+    },
+    {
+      "value": "paid from the backer's stake",
+      "count": 1
+    },
+    {
+      "value": "Palette",
+      "count": 1
+    },
+    {
+      "value": "Parameters",
+      "count": 2
+    },
+    {
+      "value": "Parameters move inside hard bounds written into the contract.",
+      "count": 1
+    },
+    {
+      "value": "Participate",
+      "count": 4
+    },
+    {
+      "value": "Pay per call for data, search or models before the client pays you.",
+      "count": 1
+    },
+    {
+      "value": "per 30 days, by the day, 1 day minimum",
+      "count": 1
+    },
+    {
+      "value": "Per account",
+      "count": 1
+    },
+    {
+      "value": "Pick a way in",
+      "count": 1
+    },
+    {
+      "value": "Plasma violet",
+      "count": 1
+    },
+    {
+      "value": "Pool contract",
+      "count": 1
+    },
+    {
+      "value": "Pool events",
+      "count": 1
+    },
+    {
+      "value": "Pool opens at launch",
+      "count": 1
+    },
+    {
+      "value": "Pool total",
+      "count": 1
+    },
+    {
+      "value": "Position",
+      "count": 1
+    },
+    {
+      "value": "Post",
+      "count": 1
+    },
+    {
+      "value": "Post a 5 USDG bond and the treasury opens a $5 line. The bond comes back after a loan held 7 days or more is repaid on time. One seat per agent, ever.",
+      "count": 1
+    },
+    {
+      "value": "Post on X",
+      "count": 1
+    },
+    {
+      "value": "Post this from that account within 30 minutes. Nasyai links it and replies.",
+      "count": 1
+    },
+    {
+      "value": "Price",
+      "count": 2
+    },
+    {
+      "value": "Price, market cap, liquidity and 24 hour volume from GeckoTerminal, read about once a minute. A coin launched a moment ago can take a few minutes to show its market.",
+      "count": 1
+    },
+    {
+      "value": "Prices read just now from each token's Chainlink feed on Robinhood Chain. The line column is what one token would open today, at that token's loan-to-value.",
+      "count": 1
+    },
+    {
+      "value": "Principal",
+      "count": 1
+    },
+    {
+      "value": "principal plus fee",
+      "count": 1
+    },
+    {
+      "value": "Principal plus fee, any time before it is due. The fee splits 50 / 25 / 25.",
+      "count": 1
+    },
+    {
+      "value": "Principal plus fee, before the due date. Hold at least 7 days for it to count.",
+      "count": 1
+    },
+    {
+      "value": "Principal plus fee. The fee splits on the spot: half to lenders, a quarter to the backer, a quarter to the treasury.",
+      "count": 1
+    },
+    {
+      "value": "Privacy",
+      "count": 1
+    },
+    {
+      "value": "Privacy · no ads, no analytics, no tracking",
+      "count": 1
+    },
+    {
+      "value": "Protocol",
+      "count": 4
+    },
+    {
+      "value": "Public record",
+      "count": 1
+    },
+    {
+      "value": "Pulsar",
+      "count": 1
+    },
+    {
+      "value": "Put my agent on the board",
+      "count": 1
+    },
+    {
+      "value": "Put stock tokens into the stock vault. They stay yours and stay in the vault, not in the pool.",
+      "count": 1
+    },
+    {
+      "value": "Questions",
+      "count": 2
+    },
+    {
+      "value": "Questions about a line, an integration, or something that looks wrong in the contracts. Security reports first, before anywhere public.",
+      "count": 1
+    },
+    {
+      "value": "Questions or requests:",
+      "count": 1
+    },
+    {
+      "value": "Questions to any member count once. $NASYAI is live: holders of 10,000 or more get the full allowance and the due diligence room.",
+      "count": 1
+    },
+    {
+      "value": "quoteFee(amount, term)",
+      "count": 1
+    },
+    {
+      "value": "RA",
+      "count": 1
+    },
+    {
+      "value": "Ranked by what they paid back.",
+      "count": 1
+    },
+    {
+      "value": "Read",
+      "count": 2
+    },
+    {
+      "value": "Read from the chain, newest first. Nothing here is typed in by hand.",
+      "count": 1
+    },
+    {
+      "value": "Read straight from the pool contract. Short loans count here, but they add little to a score. Every number is Nasyai's own, live from its contract.",
+      "count": 1
+    },
+    {
+      "value": "Read the protocol",
+      "count": 2
+    },
+    {
+      "value": "Read the skill",
+      "count": 3
+    },
+    {
+      "value": "Read this first",
+      "count": 1
+    },
+    {
+      "value": "Read-only checks need no key: any app can ask whether to trust an agent before paying it.",
+      "count": 1
+    },
+    {
+      "value": "read:",
+      "count": 3
+    },
+    {
+      "value": "refundable bond",
+      "count": 1
+    },
+    {
+      "value": "Register an ERC-8004 identity for the key that owns the agent, or bring the one you have.",
+      "count": 1
+    },
+    {
+      "value": "Register an ERC-8004 identity, ask for a first line, borrow, repay. Every step is a public event that belongs to your agent.",
+      "count": 1
+    },
+    {
+      "value": "Registry",
+      "count": 1
+    },
+    {
+      "value": "repaid",
+      "count": 1
+    },
+    {
+      "value": "Repaid",
+      "count": 5
+    },
+    {
+      "value": "Repaid(agentId, loanId, amount, fee)",
+      "count": 1
+    },
+    {
+      "value": "Repay principal plus fee and withdraw your tokens. Every repayment also counts toward the agent's Nasyai Score.",
+      "count": 1
+    },
+    {
+      "value": "Repay, take them back",
+      "count": 1
+    },
+    {
+      "value": "Repay.",
+      "count": 2
+    },
+    {
+      "value": "Repaying after the due time still settles the loan, but it counts for less in the score.",
+      "count": 1
+    },
+    {
+      "value": "repayments",
+      "count": 1
+    },
+    {
+      "value": "Repayments",
+      "count": 2
+    },
+    {
+      "value": "repays + fee",
+      "count": 1
+    },
+    {
+      "value": "Replies",
+      "count": 1
+    },
+    {
+      "value": "Reply to Nasyai",
+      "count": 1
+    },
+    {
+      "value": "Reply to Nasyai. Your coin goes live on Pons.",
+      "count": 1
+    },
+    {
+      "value": "report 12",
+      "count": 1
+    },
+    {
+      "value": "Request a lane seat",
+      "count": 1
+    },
+    {
+      "value": "research-agent",
+      "count": 1
+    },
+    {
+      "value": "Reviews, benchmarks and follower counts are cheap to fake. Money that was lent, put to work and paid back on time is not. Nasyai keeps that as a public record, and turns it into a Nasyai Score from 0 to 1000 that anyone can rebuild from chain events.",
+      "count": 1
+    },
+    {
+      "value": "Robinhood Chain, chain id 4663. Every contract will be verified on the explorer at deploy.",
+      "count": 1
+    },
+    {
+      "value": "Root sponsors",
+      "count": 1
+    },
+    {
+      "value": "Run your agent's credit.",
+      "count": 1
+    },
+    {
+      "value": "score = min(1000, 140 * ln(1 + weighted_dollar_days / 100)) weighted_dollar_days = Σ amount × days × backing_weight × timing_weight backing_weight = 1.0 (someone else's stake) | 0.25 (owner's own) timing_weight = 1.0 (on time) | 0.5 (late) ; loans under 7 days = 0.05",
+      "count": 1
+    },
+    {
+      "value": "Scroll",
+      "count": 1
+    },
+    {
+      "value": "Seat",
+      "count": 2
+    },
+    {
+      "value": "Seat step",
+      "count": 1
+    },
+    {
+      "value": "Seat vault's free backing",
+      "count": 1
+    },
+    {
+      "value": "Seats",
+      "count": 4
+    },
+    {
+      "value": "Seats are not a way to earn.",
+      "count": 1
+    },
+    {
+      "value": "Security",
+      "count": 2
+    },
+    {
+      "value": "See all activity",
+      "count": 1
+    },
+    {
+      "value": "See every launch",
+      "count": 1
+    },
+    {
+      "value": "See the coins",
+      "count": 1
+    },
+    {
+      "value": "See the ranking",
+      "count": 1
+    },
+    {
+      "value": "See the tokens",
+      "count": 1
+    },
+    {
+      "value": "Send your agent to Nasyai",
+      "count": 1
+    },
+    {
+      "value": "Set",
+      "count": 1
+    },
+    {
+      "value": "set in $NASYAI when the vault deploys (about twice the step's value at that day's price)",
+      "count": 1
+    },
+    {
+      "value": "Set line",
+      "count": 1
+    },
+    {
+      "value": "setSponsor(agentId, sponsor)",
+      "count": 1
+    },
+    {
+      "value": "setSponsor(agentId, sponsor) · setOperator(agentId, operator) borrow(agentId, amount, term, maxFee) repay(loanId, maxDue)",
+      "count": 1
+    },
+    {
+      "value": "Settle after a default",
+      "count": 2
+    },
+    {
+      "value": "Seven days after the due time, anyone can mark an unpaid loan as defaulted. The backer's locked stake repays the pool the principal plus the fee, in full, in the same transaction. Lenders are made whole; the backer takes the loss; the agent's record shows the default permanently. For an owner's $NASYAI stake, three quarters of the slashed amount burns and the rest returns to the owner. For a stock line, the vault takes tokens worth what was owed plus 20% at the feed price and returns the rest.",
+      "count": 1
+    },
+    {
+      "value": "Seven days past due, anyone can mark the loan defaulted. The backer pays; the record keeps it.",
+      "count": 1
+    },
+    {
+      "value": "Sign in",
+      "count": 4
+    },
+    {
+      "value": "Sign in as a holder",
+      "count": 1
+    },
+    {
+      "value": "Sign in once. Use it everywhere.",
+      "count": 1
+    },
+    {
+      "value": "Sign out",
+      "count": 1
+    },
+    {
+      "value": "Sign-in",
+      "count": 2
+    },
+    {
+      "value": "Signed in on Ask Nasyai",
+      "count": 1
+    },
+    {
+      "value": "signed out",
+      "count": 1
+    },
+    {
+      "value": "Site",
+      "count": 1
+    },
+    {
+      "value": "Skill",
+      "count": 1
+    },
+    {
+      "value": "Skip to content",
+      "count": 1
+    },
+    {
+      "value": "Someone backs the agent",
+      "count": 1
+    },
+    {
+      "value": "Spark",
+      "count": 1
+    },
+    {
+      "value": "sponsors ·",
+      "count": 1
+    },
+    {
+      "value": "Stake",
+      "count": 2
+    },
+    {
+      "value": "Stake USDG from your own wallet.",
+      "count": 1
+    },
+    {
+      "value": "Stake your own token",
+      "count": 1
+    },
+    {
+      "value": "stakes USDG, covers it in full",
+      "count": 1
+    },
+    {
+      "value": "star.svg",
+      "count": 1
+    },
+    {
+      "value": "Starlight",
+      "count": 1
+    },
+    {
+      "value": "Start",
+      "count": 2
+    },
+    {
+      "value": "Start in a minute",
+      "count": 1
+    },
+    {
+      "value": "started at $5",
+      "count": 1
+    },
+    {
+      "value": "Status",
+      "count": 2
+    },
+    {
+      "value": "Step 1",
+      "count": 1
+    },
+    {
+      "value": "Step 2",
+      "count": 1
+    },
+    {
+      "value": "Step 3",
+      "count": 1
+    },
+    {
+      "value": "Step 4",
+      "count": 1
+    },
+    {
+      "value": "Step price",
+      "count": 1
+    },
+    {
+      "value": "Steps ($25 each)",
+      "count": 1
+    },
+    {
+      "value": "Steps this agent may hold now",
+      "count": 1
+    },
+    {
+      "value": "Still open:",
+      "count": 1
+    },
+    {
+      "value": "Still to come:",
+      "count": 1
+    },
+    {
+      "value": "Stock line",
+      "count": 2
+    },
+    {
+      "value": "Stock lines",
+      "count": 1
+    },
+    {
+      "value": "Stock tokens that back credit lines · live from Chainlink",
+      "count": 1
+    },
+    {
+      "value": "Stock vault",
+      "count": 1
+    },
+    {
+      "value": "Stock vault's free backing",
+      "count": 1
+    },
+    {
+      "value": "Stocks",
+      "count": 3
+    },
+    {
+      "value": "Summon Nasyai on X",
+      "count": 1
+    },
+    {
+      "value": "Switch backer",
+      "count": 1
+    },
+    {
+      "value": "Tag Nasyai under any post, or reply to one of Nasyai's, and it answers in the thread with a card: the crew member who answered and the numbers it read from the chain that minute. Post",
+      "count": 1
+    },
+    {
+      "value": "Take what a job needs for at least 7 days, then repay principal plus fee. Each repayment is a public event, and the Nasyai Score moves with it.",
+      "count": 1
+    },
+    {
+      "value": "Take what the job needs, for as long as it needs, inside the line.",
+      "count": 1
+    },
+    {
+      "value": "taken from your tokens at the feed price.",
+      "count": 1
+    },
+    {
+      "value": "Talk to a human.",
+      "count": 1
+    },
+    {
+      "value": "Tested end to end in a real browser against a fork of Robinhood Chain with the live contracts: 28 checks, from a new agent to a returned bond.",
+      "count": 1
+    },
+    {
+      "value": "that chose a sponsor",
+      "count": 1
+    },
+    {
+      "value": "That is the formula behind every record I read. Give me an agent's id and I'll show you where its score comes from.",
+      "count": 1
+    },
+    {
+      "value": "the $NASYAI page",
+      "count": 1
+    },
+    {
+      "value": "The agent",
+      "count": 1
+    },
+    {
+      "value": "The agent borrows",
+      "count": 1
+    },
+    {
+      "value": "The agent borrows only when its owner wants it to. The skill file says so in its first line.",
+      "count": 1
+    },
+    {
+      "value": "The agent desk and wallet buttons",
+      "count": 1
+    },
+    {
+      "value": "The agent draws up to its free line for 1 to 30 days. Amount, due time and fee are fixed now.",
+      "count": 1
+    },
+    {
+      "value": "The agent draws USDG",
+      "count": 1
+    },
+    {
+      "value": "The agent's owner chooses its sponsor on the pool,",
+      "count": 1
+    },
+    {
+      "value": "The agent's owner chooses you first on the",
+      "count": 1
+    },
+    {
+      "value": "the agent's owner only",
+      "count": 3
+    },
+    {
+      "value": "The Ask Nasyai chat runs on Grok. Your questions, the conversation so far and the page you are on go through our server to xAI to be answered, and xAI's own privacy policy covers what it keeps. We store none of it. Do not type keys, seed phrases or anything private into it.",
+      "count": 1
+    },
+    {
+      "value": "The backer",
+      "count": 1
+    },
+    {
+      "value": "The backer's stake is locked for the full line.",
+      "count": 1
+    },
+    {
+      "value": "The backer's stake repays the loan in full, so a default never comes out of lenders' USDG. The agent's record shows the default for good.",
+      "count": 1
+    },
+    {
+      "value": "The backer's USDG is locked for the full line before the agent can draw a cent. The owner signed the consent first.",
+      "count": 1
+    },
+    {
+      "value": "The base is",
+      "count": 1
+    },
+    {
+      "value": "The board",
+      "count": 2
+    },
+    {
+      "value": "The board and stock pages read Robinhood Chain straight from your browser through public RPC nodes (PublicNode, Robinhood). Those nodes see your IP address and which contracts were read.",
+      "count": 1
+    },
+    {
+      "value": "The board is empty, on purpose",
+      "count": 1
+    },
+    {
+      "value": "The constellation",
+      "count": 1
+    },
+    {
+      "value": "The contracts are new and have no outside audit. USDG you lend can still be lost.",
+      "count": 1
+    },
+    {
+      "value": "The contracts are new. They have had internal reviews, no outside audit.",
+      "count": 1
+    },
+    {
+      "value": "The contracts are the source of truth.",
+      "count": 1
+    },
+    {
+      "value": "The credit layer for super intelligence",
+      "count": 1
+    },
+    {
+      "value": "The crew",
+      "count": 2
+    },
+    {
+      "value": "The crew · Ask Nasyai",
+      "count": 1
+    },
+    {
+      "value": "The crew is not connected to Grok yet. Everyone here answers as soon as it is.",
+      "count": 1
+    },
+    {
+      "value": "the crew page",
+      "count": 1
+    },
+    {
+      "value": "The curve is logarithmic, so the first month matters and farming size matters less.",
+      "count": 1
+    },
+    {
+      "value": "The design removes the largest risk on purpose (lenders never carry unbacked credit), and line sizes start small for the same reason. That is not a proof. Size your exposure like someone who knows an audit hasn't happened.",
+      "count": 1
+    },
+    {
+      "value": "The feed starts with the pool's first loan. Every row is read from the pool contract.",
+      "count": 1
+    },
+    {
+      "value": "The host keeps standard request logs (IP address, browser, page) for a short time to run and protect the site. Shared with the hosting provider only.",
+      "count": 1
+    },
+    {
+      "value": "The line is fixed when it opens.",
+      "count": 1
+    },
+    {
+      "value": "The mark is an eight-ray burst cut out of an iridescent disc: four long rays, four short, turned nine degrees so it reads as motion, not a compass. The colours run from hot gold, through aurora mint and ion cyan, to plasma violet.",
+      "count": 1
+    },
+    {
+      "value": "The nasyai gradient",
+      "count": 1
+    },
+    {
+      "value": "The numbers",
+      "count": 1
+    },
+    {
+      "value": "The owner locks their own $NASYAI in the seat vault, which backs the line in USDG. A default burns three quarters of the stake.",
+      "count": 1
+    },
+    {
+      "value": "The page you were looking for collapsed, or never formed.",
+      "count": 1
+    },
+    {
+      "value": "The pool",
+      "count": 1
+    },
+    {
+      "value": "The pool is live on Robinhood Chain",
+      "count": 1
+    },
+    {
+      "value": "the pool, treasury and vault contracts, the SDK and CLI, the hosted MCP server and the $NASYAI contract address. Each switches on here when it ships.",
+      "count": 1
+    },
+    {
+      "value": "The pool's events: line opened, borrowed, repaid, defaulted. Any node or indexer can replay them and get the same board.",
+      "count": 1
+    },
+    {
+      "value": "The pool's first borrow and repayment will show here as soon as they are on chain. Until then, examples of what you will see:",
+      "count": 1
+    },
+    {
+      "value": "The record in numbers",
+      "count": 1
+    },
+    {
+      "value": "The risks, plainly",
+      "count": 1
+    },
+    {
+      "value": "The rules",
+      "count": 1
+    },
+    {
+      "value": "The rules, plainly",
+      "count": 1
+    },
+    {
+      "value": "The same rules for every agent. If a number can't be rebuilt from chain events, it isn't on the board.",
+      "count": 1
+    },
+    {
+      "value": "The site is up at nasyai.xyz with the protocol written down in full: how lines open, what a default does, the Nasyai Score and every launch parameter. Two things already read Robinhood Chain live: the agent lookup reads the ERC-8004 identity registry, and the stock page prices 16 stock tokens from their Chainlink feeds.",
+      "count": 1
+    },
+    {
+      "value": "The tokens it takes",
+      "count": 1
+    },
+    {
+      "value": "The tokens it takes, live",
+      "count": 1
+    },
+    {
+      "value": "the treasury first",
+      "count": 1
+    },
+    {
+      "value": "The treasury opens a $5 line for a new agent against a 5 USDG bond from the owner. The bond comes back once the agent has repaid on time.",
+      "count": 1
+    },
+    {
+      "value": "The treasury, a sponsor or a Nasyai vault locks USDG in the pool for the whole size of the line. Anyone can register an agent. Only a backer can give it room to borrow.",
+      "count": 1
+    },
+    {
+      "value": "The treasury's first line is $5.",
+      "count": 1
+    },
+    {
+      "value": "The vault backs a line worth 30% to 50% of the tokens' value when you open it, depending on the token, up to $500. Your agent borrows inside that line like any other.",
+      "count": 1
+    },
+    {
+      "value": "These coins are not endorsed by Nasyai.",
+      "count": 1
+    },
+    {
+      "value": "They also ran against Robinhood Chain itself on a local fork first: a real ERC-8004 registration, real USDG and a TSLA stock line priced by its live feed.",
+      "count": 1
+    },
+    {
+      "value": "This browser",
+      "count": 1
+    },
+    {
+      "value": "Three roles share one pool on Robinhood Chain.",
+      "count": 1
+    },
+    {
+      "value": "Three things $NASYAI does at Nasyai, each one usable, not promised: it backs your own agent's credit line, it gives you a holder's seat at Ask Nasyai, and it lets you summon Nasyai on X. Hold",
+      "count": 1
+    },
+    {
+      "value": "through Nasyai on X",
+      "count": 1
+    },
+    {
+      "value": "Ticker",
+      "count": 2
+    },
+    {
+      "value": "Tier",
+      "count": 1
+    },
+    {
+      "value": "Tiers",
+      "count": 1
+    },
+    {
+      "value": "Tight tracking, chrome on hero titles.",
+      "count": 1
+    },
+    {
+      "value": "To prove the wallet is yours without moving anything. The message says what it is for and expires in ten minutes; Nasyai keeps no record of it.",
+      "count": 1
+    },
+    {
+      "value": "today",
+      "count": 1
+    },
+    {
+      "value": "Today",
+      "count": 1
+    },
+    {
+      "value": "Token",
+      "count": 2
+    },
+    {
+      "value": "Tokens",
+      "count": 1
+    },
+    {
+      "value": "treasury",
+      "count": 1
+    },
+    {
+      "value": "Treasury",
+      "count": 1
+    },
+    {
+      "value": "Treasury and stock lines open on the desk",
+      "count": 1
+    },
+    {
+      "value": "Treasury first line",
+      "count": 1
+    },
+    {
+      "value": "Treasury invite",
+      "count": 1
+    },
+    {
+      "value": "Treasury's free backing",
+      "count": 1
+    },
+    {
+      "value": "Type",
+      "count": 1
+    },
+    {
+      "value": "Unlink this X account",
+      "count": 1
+    },
+    {
+      "value": "Unstake",
+      "count": 1
+    },
+    {
+      "value": "up to the stake",
+      "count": 1
+    },
+    {
+      "value": "USDG",
+      "count": 4
+    },
+    {
+      "value": "USDG staked behind the treasury and the stock vault (no first line or stock line can open until then), the lane signer, wallet buttons on this site, the seat vault (it needs $NASYAI) and the SDK. No outside audit.",
+      "count": 1
+    },
+    {
+      "value": "USDG to deposit",
+      "count": 1
+    },
+    {
+      "value": "USDG to withdraw",
+      "count": 1
+    },
+    {
+      "value": "Use a line",
+      "count": 3
+    },
+    {
+      "value": "Use stock tokens",
+      "count": 1
+    },
+    {
+      "value": "Very little. The site needs nothing about you to work and sets no cookies. A holder sign-in is the one thing it keeps in your browser beyond the tab.",
+      "count": 1
+    },
+    {
+      "value": "Void",
+      "count": 1
+    },
+    {
+      "value": "vouches a line",
+      "count": 1
+    },
+    {
+      "value": "Waiting for the first block",
+      "count": 1
+    },
+    {
+      "value": "Wallet",
+      "count": 1
+    },
+    {
+      "value": "week 1",
+      "count": 1
+    },
+    {
+      "value": "Week-long loans and up",
+      "count": 1
+    },
+    {
+      "value": "What $NASYAI does",
+      "count": 3
+    },
+    {
+      "value": "What a default does",
+      "count": 2
+    },
+    {
+      "value": "What an agent does with a line",
+      "count": 1
+    },
+    {
+      "value": "What changed, why, and what is still open. Newest first.",
+      "count": 1
+    },
+    {
+      "value": "What if I sell?",
+      "count": 1
+    },
+    {
+      "value": "What it costs",
+      "count": 2
+    },
+    {
+      "value": "What it is for",
+      "count": 1
+    },
+    {
+      "value": "What it will borrow for",
+      "count": 1
+    },
+    {
+      "value": "What we collect, and why.",
+      "count": 1
+    },
+    {
+      "value": "When",
+      "count": 3
+    },
+    {
+      "value": "When you connect a wallet, its address is read to show your lines and positions. Anything you sign is public on chain by design. We never see your keys.",
+      "count": 1
+    },
+    {
+      "value": "Where the numbers come from",
+      "count": 1
+    },
+    {
+      "value": "Who",
+      "count": 4
+    },
+    {
+      "value": "Who backs this agent",
+      "count": 1
+    },
+    {
+      "value": "Who can do it",
+      "count": 1
+    },
+    {
+      "value": "Who does what",
+      "count": 1
+    },
+    {
+      "value": "Who loses if the agent defaults: the treasury, a sponsor, a seat vault, the owner's own $NASYAI or a stock vault.",
+      "count": 1
+    },
+    {
+      "value": "Why sign a message?",
+      "count": 1
+    },
+    {
+      "value": "with the wallet that holds $NASYAI.",
+      "count": 1
+    },
+    {
+      "value": "Withdraw",
+      "count": 2
+    },
+    {
+      "value": "Withdraw tokens",
+      "count": 1
+    },
+    {
+      "value": "Withdrawals are paid from idle USDG and never wait for agents to repay.",
+      "count": 1
+    },
+    {
+      "value": "Withdrawals never wait on agents to repay",
+      "count": 1
+    },
+    {
+      "value": "Wordmark",
+      "count": 1
+    },
+    {
+      "value": "Working capital for software that pays its own way: borrow when a job needs money up front, repay when the job pays, and keep the record that proves it.",
+      "count": 1
+    },
+    {
+      "value": "Works today",
+      "count": 2
+    },
+    {
+      "value": "X",
+      "count": 2
+    },
+    {
+      "value": "X account",
+      "count": 1
+    },
+    {
+      "value": "X accounts linked to 10,000 $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "X accounts linked to a wallet holding",
+      "count": 1
+    },
+    {
+      "value": "x-avatar.png",
+      "count": 1
+    },
+    {
+      "value": "x-banner.png",
+      "count": 1
+    },
+    {
+      "value": "x402 income",
+      "count": 1
+    },
+    {
+      "value": "yai",
+      "count": 3
+    },
+    {
+      "value": "Your $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "Your agent",
+      "count": 1
+    },
+    {
+      "value": "Your agent's id lives in the ERC-8004 identity registry on Robinhood Chain, not in Nasyai. If it already has one, look it up; Nasyai reads the same id.",
+      "count": 1
+    },
+    {
+      "value": "Your holder status",
+      "count": 1
+    },
+    {
+      "value": "Your own $NASYAI",
+      "count": 1
+    },
+    {
+      "value": "Your position",
+      "count": 1
+    },
+    {
+      "value": "Your share of fees",
+      "count": 1
+    },
+    {
+      "value": "Your sponsor desk",
+      "count": 1
+    },
+    {
+      "value": "Your visits",
+      "count": 1
+    },
+    {
+      "value": "Your wallet",
+      "count": 2
+    },
+    {
+      "value": "Your X username",
+      "count": 1
+    }
+  ],
+  "hiddenText": [],
+  "attributes": [
+    {
+      "name": "href",
+      "value": "/img/brand/mark-512.png",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/img/brand/mark.svg",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/img/brand/star.svg",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/img/brand/x-avatar.png",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/img/brand/x-banner.png",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/og.png",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "/skill.md",
+      "count": 6
+    },
+    {
+      "name": "href",
+      "value": "#",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#addresses",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#coins",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#default",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#holder",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "#interface",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#invariants",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#lifecycle",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#main",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#model",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#parameters",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#score",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#security",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#token",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "#tokens",
+      "count": 1
+    },
+    {
+      "name": "name",
+      "value": "id",
+      "count": 4
+    },
+    {
+      "name": "name",
+      "value": "sp",
+      "count": 5
+    },
+    {
+      "name": "placeholder",
+      "value": "@yourname",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "0x…",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "0x… or empty to clear",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "1",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "5",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Agent id",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "e.g. 482",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "ERC-8004 agent id",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Have an ERC-8004 agent? Its id",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Line, USDG",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Look up an agent by its ERC-8004 id",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Search",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "USDG",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "USDG to deposit",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "USDG to withdraw",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "x402 API calls, compute, inventory…",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "Your agent's id",
+      "count": 1
+    },
+    {
+      "name": "src",
+      "value": "/img/brand",
+      "count": 6
+    },
+    {
+      "name": "title",
+      "value": "Close",
+      "count": 1
+    },
+    {
+      "name": "title",
+      "value": "Copy the contract",
+      "count": 1
+    },
+    {
+      "name": "title",
+      "value": "New chat",
+      "count": 2
+    },
+    {
+      "name": "title",
+      "value": "Open the full crew",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/",
+      "count": 4
+    },
+    {
+      "name": "to",
+      "value": "/agents",
+      "count": 4
+    },
+    {
+      "name": "to",
+      "value": "/board",
+      "count": 8
+    },
+    {
+      "name": "to",
+      "value": "/brand",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/contact",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/crew",
+      "count": 7
+    },
+    {
+      "name": "to",
+      "value": "/crew#scout",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/desk",
+      "count": 11
+    },
+    {
+      "name": "to",
+      "value": "/launches",
+      "count": 5
+    },
+    {
+      "name": "to",
+      "value": "/log",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/nasyai",
+      "count": 9
+    },
+    {
+      "name": "to",
+      "value": "/nasyai#holder",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/nasyai#x",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/participate",
+      "count": 3
+    },
+    {
+      "name": "to",
+      "value": "/participate#back",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/participate#lend",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/privacy",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/protocol",
+      "count": 6
+    },
+    {
+      "name": "to",
+      "value": "/protocol#parameters",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/protocol#score",
+      "count": 1
+    },
+    {
+      "name": "to",
+      "value": "/seats",
+      "count": 6
+    },
+    {
+      "name": "to",
+      "value": "/start",
+      "count": 9
+    },
+    {
+      "name": "to",
+      "value": "/stocks",
+      "count": 6
+    },
+    {
+      "name": "to",
+      "value": "/use",
+      "count": 4
+    },
+    {
+      "name": "value",
+      "value": "14",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "2",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "none",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "other",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "seat",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "stock",
+      "count": 1
+    },
+    {
+      "name": "value",
+      "value": "treasury",
+      "count": 1
+    }
+  ],
+  "bindings": [
+    {
+      "kind": "asset",
+      "expr": "`/img/stocks",
+      "count": 1
+    },
+    {
+      "kind": "asset",
+      "expr": "c.m.image || c.logo",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`/board?agent=${r.agentId}`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`/img/stocks",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`${BY[id].name} · ${BY[id].role}`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`${c.name} · ${c.role}`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`https://x.com/${encodeURIComponent(c.user)}`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`mailto:${NASYAI.links.email}`",
+      "count": 3
+    },
+    {
+      "kind": "attr",
+      "expr": "addressUrl(address)",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "b.open ? `$${b.a} open, due in 9 days` : `$${b.a} for ${b.d} days, repaid on time`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "buy",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "c.link",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "c.m.image || c.logo",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "i",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "NASYAI.links.x",
+      "count": 3
+    },
+    {
+      "kind": "attr",
+      "expr": "NASYAI.token.buy",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "placeholder",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "poolUrl",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "regHref",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "tokenHref(s)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.backer",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.line",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.n",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.name",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.s",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.status[0]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.t[1]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "active === 'room' ? 'Pulling the record…' : `${member.name} is reading the chain…`",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "address",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "agentError",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "agentId",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "agents",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "borrows",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BY[id].name",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.blurb",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.id === 'room' ? 'Ask for a report' : `Ask ${c.name}`",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.name",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.rim ? ', nasyai rim' : ''",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.role",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.shortToken",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.sym",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.symbol",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.user",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.when",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "ca",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "chat.chats[id]?.length ? shortTime(chat.chats[id][chat.chats[id].length - 1].at) : ''",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "chat.gate.ticker",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "defaults",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "err",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "f.a",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "f.q",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "feedState.text",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "fillLabel(c)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "hostMember.name",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "i + 1",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "initials(c.symbol)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.creator_fee_pct",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.items.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.items.length === 1 ? '' : 's'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.launcher.launches_left",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.launcher.ready ? 'Launches open' : 'Launches paused'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.today.cap",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.today.used",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "L.total",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "label",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "label(s)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "leftNote",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "lent",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "lineCell(s)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "loans",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "loans.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "LOANS.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "m.report",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "me",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "member.blurb",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "member.id === 'room' ? member.role : member.role + ' · reads the chain'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "member.intro",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "member.name",
+      "count": 9
+    },
+    {
+      "kind": "interpolation",
+      "expr": "member.role",
+      "count": 5
+    },
+    {
+      "kind": "interpolation",
+      "expr": "minHold",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "money(a.repaid)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "money(REPAID)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "NASYAI.links.email",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "NASYAI.token.ca",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "netText",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "pool",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "previewText(id)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "priceCell(s)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.agentId",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.amt",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.detail",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.kind[0]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.when",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "repaid",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "repayments",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "rows.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.label",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.ltv",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.name",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.sym",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "say",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "SCORE",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "SHAPES[c.shape]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "sheet.code",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "sheet.text",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "sheet.title",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "shortAddr(s.token)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "since",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "sponsors",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "stamp(m.at)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "sub",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "t",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "tier.tag",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "tier.text",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "TIER[1]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "toastState.msg",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "toolLine(m.tools)",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "updatedCell(s)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "usd(c.m.liquidity_usd)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "usd(c.m.market_cap_usd)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "usd(c.m.price_usd, true)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "usd(c.m.volume_24h_usd)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "w.name",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "w[0]",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.account ? '' : '?'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.account ? short(wallet.account) : 'Connect'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.account ? wallet.account.slice(0, 6) + '…' + wallet.account.slice(-4) : 'You'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "who === 'room' ? 'Pulling the record…' : `${member.name} is reading the chain…`",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "x[0]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "x[1]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "x[3]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "x[4]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "x[5]",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "xHandle",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "year",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "`/board?agent=${r.agentId}`",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "`https://x.com/${encodeURIComponent(c.user)}`",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "`mailto:${NASYAI.links.email}`",
+      "count": 3
+    },
+    {
+      "kind": "link",
+      "expr": "addressUrl(address)",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "buy",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "c.link",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "NASYAI.links.x",
+      "count": 3
+    },
+    {
+      "kind": "link",
+      "expr": "NASYAI.token.buy",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "poolUrl",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "regHref",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "tokenHref(s)",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "agentId",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "find",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "lookup",
+      "count": 3
+    },
+    {
+      "kind": "model",
+      "expr": "q",
+      "count": 2
+    },
+    {
+      "kind": "text",
+      "expr": "bubbleMd(m.content)",
+      "count": 3
+    },
+    {
+      "kind": "text",
+      "expr": "bubbleUser(m.content)",
+      "count": 2
+    }
+  ],
+  "events": [
+    {
+      "event": "click",
+      "handler": "askChip(s.raw)",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "askNasyai",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "chip(s.raw)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "chooseWallet(w.rdns)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "close",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "closeSheet",
+      "count": 3
+    },
+    {
+      "event": "click",
+      "handler": "connectWallet()",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "copy(c.token)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "copyCa",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "copySkill",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "disconnect",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "getCode",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "menu = !menu",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "newChat",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "onBuddyClick",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "onConnect",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "openAsk('nasyai')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "openAsk('pilot')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "openAsk(c.id)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "openAsk(member.id)",
+      "count": 3
+    },
+    {
+      "event": "click",
+      "handler": "pick(id)",
+      "count": 3
+    },
+    {
+      "event": "click",
+      "handler": "pickCrew(c.id)",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "registerAgent",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "signIn",
+      "count": 4
+    },
+    {
+      "event": "click",
+      "handler": "tier = t",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "toggle",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "view = 'list'",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletAction",
+      "count": 13
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Claiming fees')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Depositing')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Max')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Setting a line')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Staking')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Unstaking')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "walletOnly('Withdrawing')",
+      "count": 1
+    },
+    {
+      "event": "input",
+      "handler": "grow",
+      "count": 2
+    },
+    {
+      "event": "keydown",
+      "handler": "send",
+      "count": 2
+    },
+    {
+      "event": "submit",
+      "handler": "loadAgent",
+      "count": 1
+    },
+    {
+      "event": "submit",
+      "handler": "requestLane",
+      "count": 1
+    },
+    {
+      "event": "submit",
+      "handler": "send",
+      "count": 2
+    },
+    {
+      "event": "submit",
+      "handler": "submitLookup",
+      "count": 3
+    }
+  ],
+  "links": [
+    {
+      "kind": "href",
+      "target": "/img/brand/mark-512.png",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/img/brand/mark.svg",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/img/brand/star.svg",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/img/brand/x-avatar.png",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/img/brand/x-banner.png",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/og.png",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "/skill.md",
+      "count": 6
+    },
+    {
+      "kind": "href",
+      "target": "#",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#addresses",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#coins",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#default",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#holder",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "#interface",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#invariants",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#lifecycle",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#main",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#model",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#parameters",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#score",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#security",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#token",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "#tokens",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/",
+      "count": 4
+    },
+    {
+      "kind": "to",
+      "target": "/agents",
+      "count": 4
+    },
+    {
+      "kind": "to",
+      "target": "/board",
+      "count": 8
+    },
+    {
+      "kind": "to",
+      "target": "/brand",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/contact",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/crew",
+      "count": 7
+    },
+    {
+      "kind": "to",
+      "target": "/crew#scout",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/desk",
+      "count": 11
+    },
+    {
+      "kind": "to",
+      "target": "/launches",
+      "count": 5
+    },
+    {
+      "kind": "to",
+      "target": "/log",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/nasyai",
+      "count": 9
+    },
+    {
+      "kind": "to",
+      "target": "/nasyai#holder",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/nasyai#x",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/participate",
+      "count": 3
+    },
+    {
+      "kind": "to",
+      "target": "/participate#back",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/participate#lend",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/privacy",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/protocol",
+      "count": 6
+    },
+    {
+      "kind": "to",
+      "target": "/protocol#parameters",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/protocol#score",
+      "count": 1
+    },
+    {
+      "kind": "to",
+      "target": "/seats",
+      "count": 6
+    },
+    {
+      "kind": "to",
+      "target": "/start",
+      "count": 9
+    },
+    {
+      "kind": "to",
+      "target": "/stocks",
+      "count": 6
+    },
+    {
+      "kind": "to",
+      "target": "/use",
+      "count": 4
+    }
+  ],
+  "assets": [
+    {
+      "kind": "src",
+      "value": "/img/brand",
+      "count": 6
+    }
+  ],
+  "forms": [
+    {
+      "tag": "input",
+      "name": "",
+      "type": "",
+      "count": 14
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "search",
+      "count": 1
+    },
+    {
+      "tag": "input",
+      "name": "id",
+      "type": "",
+      "count": 4
+    },
+    {
+      "tag": "input",
+      "name": "sp",
+      "type": "radio",
+      "count": 5
+    },
+    {
+      "tag": "select",
+      "name": "",
+      "type": "",
+      "count": 1
+    },
+    {
+      "tag": "textarea",
+      "name": "",
+      "type": "",
+      "count": 2
+    }
+  ],
+  "i18n": [],
+  "i18nKeys": [],
+  "i18nFiles": [],
+  "api": [],
+  "env": []
+}

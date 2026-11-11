@@ -1,0 +1,139 @@
+
+/* ------------------------------------------------------------ wallet sheet */
+
+.wallet-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 10px;
+}
+
+.wallet-dot {
+  width: 9px;
+  height: 9px;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--ink);
+}
+
+.wallet-head h3 {
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.wallet-text {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+}
+
+.wallet-addr {
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  padding: 7px 9px;
+  margin-bottom: 10px;
+}
+
+.wallet-addr code {
+  font: 700 0.72rem/1.4 var(--mono);
+  word-break: break-all;
+}
+
+.wallet-rows {
+  display: grid;
+  margin-bottom: 12px;
+}
+
+.wallet-rows li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 6px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.82rem;
+}
+
+.wallet-rows li:first-child {
+  border-top: 0;
+}
+
+.wallet-rows li span {
+  font: 700 9px/1.5 var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.wallet-rows li b {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  text-align: end;
+  overflow-wrap: anywhere;
+}
+
+.wallet-progress {
+  display: flex;
+  gap: 5px;
+  padding: 6px 0 14px;
+}
+
+.wallet-progress i {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  animation: wallet-pulse 1s steps(2, end) infinite;
+}
+
+.wallet-progress i:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.wallet-progress i:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes wallet-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.wallet-list button,
+.wallet-list a {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.wallet-list img {
+  width: 20px;
+  height: 20px;
+}
+
+.wallet-chev {
+  margin-inline-start: auto;
+  font-family: var(--body);
+}
+
+.wallet-state {
+  font: 700 9.5px/1.5 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-inline-end: auto;
+}
+
+/* connected address keeps its casing */
+.act--addr {
+  text-transform: none;
+  font-family: var(--mono);
+  letter-spacing: 0.02em;
+  font-size: 0.78rem;
+}
