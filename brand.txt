@@ -2,7 +2,7 @@
 # Maintained by the rebrand skill. History may be empty; there is exactly one current brand.
 
 # Historical brands (0..n)
-history: NovaSI
+history: NASYAI
 
 # Current brand (exactly one)
 current: Nasyai
