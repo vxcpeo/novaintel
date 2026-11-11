@@ -9,8 +9,8 @@ import CrewCards from '../components/CrewCards.vue'
       <div class="well">
         <div class="statement">
           <p class="statement-kicker">Brand</p>
-          <h1 class="statement-title mega">A star stamped on the plate.</h1>
-          <p class="statement-lede">The mark is a four-point star stamped in paper white on the accent plate: four points on the axes, straight rays, one flat red ground. It is built on a 256 grid, prints in two colours, has no gradient and no glow, and still reads as a star at 16 pixels.</p>
+          <h1 class="statement-title mega">An N, stamped on the plate.</h1>
+          <p class="statement-lede">The mark is a monogram: a heavy grotesque N drawn on a 256 grid as two stems and one diagonal, printed in paper white on the accent plate. Three shapes, two colours, no gradient, no effects. It sets beside the wordmark the way a stamp sets beside a signature, and it still reads as a letter at 16 pixels.</p>
           <CrewGuide />
         </div>
       </div>
@@ -20,25 +20,25 @@ import CrewCards from '../components/CrewCards.vue'
       <div class="well band-in">
         <div class="grid-3">
           <div class="panel" style="display: grid; place-items: center">
-            <img src="/img/brand/mark.svg" alt="Nasyai mark" width="180" height="180">
+            <img src="/img/brand/mark-n.svg?v=2" alt="Nasyai mark" width="180" height="180">
           </div>
           <div class="panel" style="display: grid; place-items: center">
             <span class="cluster">
-              <img src="/img/brand/mark.svg" alt="" width="64" height="64">
+              <img src="/img/brand/mark-n.svg?v=2" alt="" width="64" height="64">
               <span class="display-sm">Nas<b>yai</b></span>
             </span>
           </div>
           <div class="panel" style="display: grid; place-items: center; background: #fff">
-            <img src="/img/brand/mark.svg" alt="Nasyai mark on white" width="120" height="120">
+            <img src="/img/brand/mark-n.svg?v=2" alt="Nasyai mark on white" width="120" height="120">
           </div>
         </div>
         <div class="cluster" style="margin-top: 22px">
-          <a class="act act--line act--sm" href="/img/brand/mark.svg" download>mark.svg</a>
-          <a class="act act--line act--sm" href="/img/brand/mark-512.png" download>mark-512.png</a>
-          <a class="act act--line act--sm" href="/img/brand/star.svg" download>star.svg</a>
-          <a class="act act--line act--sm" href="/img/brand/x-avatar.png" download>x-avatar.png</a>
-          <a class="act act--line act--sm" href="/img/brand/x-banner.png" download>x-banner.png</a>
-          <a class="act act--line act--sm" href="/og.png" download>og.png</a>
+          <a class="act act--line act--sm" href="/img/brand/mark-n.svg?v=2" download="mark-n.svg">mark-n.svg</a>
+          <a class="act act--line act--sm" href="/img/brand/mark-512.png?v=2" download="mark-512.png">mark-512.png</a>
+          <a class="act act--line act--sm" href="/img/brand/n.svg?v=2" download="n.svg">n.svg</a>
+          <a class="act act--line act--sm" href="/img/brand/x-avatar.png?v=2" download="x-avatar.png">x-avatar.png</a>
+          <a class="act act--line act--sm" href="/img/brand/x-banner.png?v=2" download="x-banner.png">x-banner.png</a>
+          <a class="act act--line act--sm" href="/og.png?v=2" download="og.png">og.png</a>
         </div>
       </div>
     </section>

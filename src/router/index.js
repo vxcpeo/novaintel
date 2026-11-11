@@ -208,7 +208,7 @@ router.afterEach((to) => {
   // so the file is also a resolvable local asset.
   for (const selector of ['meta[property="og:image"]', 'meta[name="twitter:image"]']) {
     const img = document.querySelector(selector)
-    if (img) img.setAttribute('content', 'https://nasyai.top/og.png')
+    if (img) img.setAttribute('content', 'https://nasyai.top/og.png?v=2')
   }
   document.body.className = m.bodyClass || (m.page ? 'page' : '')
   document.body.dataset.host = m.host || ''

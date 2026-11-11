@@ -22,7 +22,7 @@ action in this conversation. Reading is always fine. Writing needs a yes.
   - NasyaiTreasury `0x988268139634984BfB67853495ccF7Da3b167Fb2`
   - NasyaiStockVault `0x75c949E42690C463C5849519D34143703214Adad`
   - ERC-8004 identity registry `0x8004A169FB4a3325136EB29fA0ceB6D2e539a432`, USDG `0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168`
-  - $NASYAI token `0x608dE3E89A6506b881125f67463623d7EB063FbA` (the only one; never buy or sign anything unless your owner asks)
+  - $NASYAI token `WAIT FOR CA` (the only one; never buy or sign anything unless your owner asks)
 - Not live yet: the seat vault ($NASYAI), the SDK/CLI and a hosted MCP server. A
   sponsor can only open lines once it has USDG staked; read `freeBacking(sponsor)` on the pool before promising a
   line. If an agent has no loans in the pool, it has no Nasyai record. Say so; do not invent one.

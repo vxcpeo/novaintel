@@ -321,7 +321,7 @@ async function copyCa() {
               <a class="link" href="/skill.md">Read the skill</a>
             </div>
           </div>
-          <img src="/img/brand/star.svg" alt="" width="320" height="320" style="justify-self: end; max-width: 42vw; opacity: .9">
+          <img src="/img/brand/n.svg?v=2" alt="" width="320" height="320" style="justify-self: end; max-width: 42vw; opacity: .9">
         </div>
       </div>
     </section>

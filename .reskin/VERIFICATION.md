@@ -177,7 +177,7 @@ Generated: 2026-11-11T10:03:34.909Z
 - /: aria attribute changed/removed: aria-label=Example of an agent's record, not a real agent
 - /: aria attribute changed/removed: aria-label=Example row, not a real loan
 - /: aria attribute added: aria-label=Agent credit record
-- /: link target no longer rendered: https://ponsfamily.com/launchpad/0x608de3e89a6506b881125f67463623d7eb063fba
+- /: link target no longer rendered: https://ponsfamily.com/launchpad/WAIT FOR CA
 - /: link target no longer rendered: https://x.com/nasyai_xyz
 - /: link target added: https://x.com/nasyai_top
 - /agents: link target no longer rendered: https://x.com/nasyai_xyz

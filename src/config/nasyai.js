@@ -15,7 +15,7 @@ export const NASYAI = {
     rpc: ['https://robinhood-rpc.publicnode.com', 'https://rpc.mainnet.chain.robinhood.com'],
   },
   token: {
-    ca: '0x608dE3E89A6506b881125f67463623d7EB063FbA',
+    ca: 'WAIT FOR CA',
     minHold: 10000,
     decimals: 18,
   },

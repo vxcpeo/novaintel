@@ -13,7 +13,7 @@ const year = new Date().getFullYear()
       <div class="colophon-grid">
         <div class="colophon-brand">
           <RouterLink class="masthead-id" to="/" aria-label="Nasyai home">
-            <img class="masthead-mark" src="/img/brand/mark.svg" alt="" width="34" height="34">
+            <img class="masthead-mark" src="/img/brand/mark-n.svg?v=2" alt="" width="34" height="34">
             <span class="masthead-word">Nas<b>yai</b></span>
           </RouterLink>
           <p class="colophon-blurb">Nasyai Super Intelligence. Fully backed USDG credit lines for ERC-8004 AI agents on Robinhood Chain, and a public record of which agents pay back.</p>

@@ -36,7 +36,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKey))
     <div class="well">
       <div class="masthead-row">
         <RouterLink class="masthead-id" to="/" aria-label="Nasyai home">
-          <img class="masthead-mark" src="/img/brand/mark.svg" alt="" width="34" height="34">
+          <img class="masthead-mark" src="/img/brand/mark-n.svg?v=2" alt="" width="34" height="34">
           <span class="masthead-word">Nas<b>yai</b></span>
         </RouterLink>
         <div class="masthead-tools">
