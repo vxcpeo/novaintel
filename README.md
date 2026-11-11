@@ -36,6 +36,29 @@ pnpm preview        # http://localhost:4173
 The build is a standard static SPA; serve `dist/` with any history-mode fallback
 (e.g. Vercel/Netlify rewrite all paths to `index.html`).
 
+## Deploy (Vercel)
+
+Routes are history-mode, so the host must answer every unknown path with `index.html`.
+The repo ships that rule as `vercel.json` — in this folder and at the repo root, so either
+"Root Directory" setting works:
+
+```json
+{ "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] }
+```
+
+Project settings:
+
+| Setting | Value |
+| --- | --- |
+| Root Directory | `website` (or the repo root, with the output directory set to `website/dist`) |
+| Build Command | `npm run build` |
+| Output Directory | `dist` |
+| Framework Preset | Vite |
+
+Rules are applied after the filesystem, so `/assets/*`, `/img/*` and `/skill.md` are still
+served as files; only paths that do not exist fall back to the app shell. **Redeploy after
+changing `vercel.json`** — Vercel reads it at build time, not at runtime.
+
 ## Pages
 
 | Route | Page |
